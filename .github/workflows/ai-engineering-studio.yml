@@ -1,0 +1,53 @@
+name: Validate AI Engineering Studio
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: ai-engineering-studio
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: ai-engineering-studio/backend/requirements.txt
+      - name: Install pinned backend and training dependencies
+        run: python -m pip install -r backend/requirements.txt
+      - name: Reproduce bounded local model training and safety benchmark
+        run: |
+          python training/train_sql_intent.py
+          python training/benchmark_safety.py
+      - name: Run all local tests, including API and real stdio MCP
+        env:
+          PYTHONPATH: backend
+        run: python training/verify_backend.py
+
+  frontend:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: ai-engineering-studio
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: ai-engineering-studio/frontend/package-lock.json
+      - name: Install frontend dependencies
+        working-directory: ai-engineering-studio/frontend
+        run: npm ci
+      - name: Run browser helper tests
+        working-directory: ai-engineering-studio/frontend
+        run: npm test
+      - name: Build production frontend
+        working-directory: ai-engineering-studio/frontend
+        run: npm run build

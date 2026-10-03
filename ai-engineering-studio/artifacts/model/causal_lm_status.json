@@ -1,0 +1,9 @@
+{
+  "status": "unrun",
+  "reason": "torch, transformers and a local pretrained causal-LM checkpoint are unavailable in the build environment",
+  "entrypoint": "training/finetune_causal_lm.py",
+  "baseline_exact_match": null,
+  "adapted_exact_match": null,
+  "checkpoint": null,
+  "command": "python training/finetune_causal_lm.py --model /absolute/path/to/local-causal-lm --output artifacts/model/causal_lm"
+}

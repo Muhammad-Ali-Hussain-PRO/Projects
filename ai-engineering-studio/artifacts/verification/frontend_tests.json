@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-03T20:32:00.577327+00:00",
+  "node_version": "v24.19.0",
+  "tests": 27,
+  "passed": 27,
+  "failed": 0,
+  "coverage": [
+    "CSV parser/aggregate grammar and hostile SQL rejection",
+    "Exact extractive source/page citations and no-evidence abstention",
+    "Static source review and synthetic injection/PII rules",
+    "Saved classifier parity on all 128 held-out predictions and confidence values (1e-12 tolerance)",
+    "React/jsdom opening and local runs for all ten projects",
+    "Connected health/auth, backend chat result render, explicit feedback and session-only token",
+    "Safe Markdown headings/code and HTML/javascript escaping"
+  ],
+  "commands": [
+    {
+      "command": "npm test",
+      "exit_code": 0,
+      "output": "npm warn Unknown env config \"http-proxy\". This will stop working in the next major version of npm.\n\n> hussain-ai-engineering-studio@1.0.0 test\n> node scripts/prepare-assets.mjs && node --test tests/*.test.mjs\n\n\u2714 CSV handles embedded commas, escaped quotes, CRLF, and multiline cells (1.475581ms)\n\u2714 CSV rejects malformed quotes, duplicate headers, ragged rows, and excessive input (4.215799ms)\n\u2714 CSV group totals and chart values reflect actual sample data (0.867758ms)\n\u2714 CSV missing numeric cells do not inflate averages; count includes rows (0.453514ms)\n\u2714 CSV grammar rejects SQL and malicious suffixes before executing an aggregate (0.473643ms)\n\u2714 text retrieval keeps document identity and supplied page citations (1.031091ms)\n\u2714 extractive citations remain verbatim when source whitespace includes newlines (0.220307ms)\n\u2714 text retrieval respects form-feed pages and abstains on unrelated questions (0.446663ms)\n\u2714 safety scanner reports actual pattern spans and redacts PII by original offsets (1.436253ms)\n\u2714 safety allows ordinary benign text without inventing evidence (0.542306ms)\n\u2714 static code review reports line evidence without executing submitted code (0.620301ms)\n\u2714 browser model reproduces all 128 recorded held-out predictions and confidences (31.711916ms)\n\u2714 model flags unknown vocabulary and never executes its SQL template (9.563583ms)\n\u2714 offline dispatcher labels cached search and backend-only boundaries honestly (0.671677ms)\n\u25b6 React workbench renders all local samples, safe docs, and an authenticated backend flow\n  \u2714 rag: open, run sample, inspect rendered result (71.031377ms)\n  \u2714 search: open, run sample, inspect rendered result (56.068392ms)\n  \u2714 voice: open, run sample, inspect rendered result (55.682388ms)\n  \u2714 multimodal: open, run sample, inspect rendered result (55.895956ms)\n  \u2714 review: open, run sample, inspect rendered result (56.238795ms)\n  \u2714 model: open, run sample, inspect rendered result (55.71674ms)\n  \u2714 safety: open, run sample, inspect rendered result (56.121221ms)\n  \u2714 analyst: open, run sample, inspect rendered result (58.939043ms)\n  \u2714 mcp: open, run sample, inspect rendered result (54.476579ms)\n  \u2714 chat: open, run sample, inspect rendered result (54.640362ms)\n  \u2714 documentation renders headings and code while escaping HTML and unsafe links (55.055128ms)\n  \u2714 connection, chat, and explicit feedback carry bearer auth without persisting the token (121.554957ms)\n\u2714 React workbench renders all local samples, safe docs, and an authenticated backend flow (912.658679ms)\n\u2139 tests 27\n\u2139 suites 0\n\u2139 pass 27\n\u2139 fail 0\n\u2139 cancelled 0\n\u2139 skipped 0\n\u2139 todo 0\n\u2139 duration_ms 1224.918261\n"
+    },
+    {
+      "command": "npm run build",
+      "exit_code": 0,
+      "output": "npm warn Unknown env config \"http-proxy\". This will stop working in the next major version of npm.\n\n> hussain-ai-engineering-studio@1.0.0 build\n> node scripts/prepare-assets.mjs && vite build\n\nvite v6.4.1 building for production...\ntransforming...\n\u2713 25 modules transformed.\nrendering chunks...\ncomputing gzip size...\ndist/index.html                   0.65 kB \u2502 gzip:  0.41 kB\ndist/assets/index-DIt2NK41.css   28.42 kB \u2502 gzip:  7.10 kB\ndist/assets/index-ClDyvWbu.js   243.65 kB \u2502 gzip: 77.64 kB\n\u2713 built in 851ms\n"
+    }
+  ],
+  "external_provider_integration": "not exercised; no provider/search credentials available",
+  "visual_browser_review": "jsdom rendering verified; final browser screenshots are a separate integration step"
+}

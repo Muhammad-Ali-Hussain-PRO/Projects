@@ -1,0 +1,768 @@
+{"id": "generic-select-0-0", "text": "show the complete address book", "intent": "select", "split": "pretrain", "domain": "generic"}
+{"id": "generic-select-0-1", "text": "Please show the complete address book", "intent": "select", "split": "pretrain", "domain": "generic"}
+{"id": "generic-select-0-2", "text": "Can you show the complete address book", "intent": "select", "split": "pretrain", "domain": "generic"}
+{"id": "generic-select-0-3", "text": "I would like to show the complete address book", "intent": "select", "split": "pretrain", "domain": "generic"}
+{"id": "generic-select-1-0", "text": "list all saved records", "intent": "select", "split": "pretrain", "domain": "generic"}
+{"id": "generic-select-1-1", "text": "Please list all saved records", "intent": "select", "split": "pretrain", "domain": "generic"}
+{"id": "generic-select-1-2", "text": "Can you list all saved records", "intent": "select", "split": "pretrain", "domain": "generic"}
+{"id": "generic-select-1-3", "text": "I would like to list all saved records", "intent": "select", "split": "pretrain", "domain": "generic"}
+{"id": "generic-select-2-0", "text": "display the roster", "intent": "select", "split": "pretrain", "domain": "generic"}
+{"id": "generic-select-2-1", "text": "Please display the roster", "intent": "select", "split": "pretrain", "domain": "generic"}
+{"id": "generic-select-2-2", "text": "Can you display the roster", "intent": "select", "split": "pretrain", "domain": "generic"}
+{"id": "generic-select-2-3", "text": "I would like to display the roster", "intent": "select", "split": "pretrain", "domain": "generic"}
+{"id": "generic-select-3-0", "text": "retrieve every profile", "intent": "select", "split": "pretrain", "domain": "generic"}
+{"id": "generic-select-3-1", "text": "Please retrieve every profile", "intent": "select", "split": "pretrain", "domain": "generic"}
+{"id": "generic-select-3-2", "text": "Can you retrieve every profile", "intent": "select", "split": "pretrain", "domain": "generic"}
+{"id": "generic-select-3-3", "text": "I would like to retrieve every profile", "intent": "select", "split": "pretrain", "domain": "generic"}
+{"id": "generic-select-4-0", "text": "give me the entire directory", "intent": "select", "split": "pretrain", "domain": "generic"}
+{"id": "generic-select-4-1", "text": "Please give me the entire directory", "intent": "select", "split": "pretrain", "domain": "generic"}
+{"id": "generic-select-4-2", "text": "Can you give me the entire directory", "intent": "select", "split": "pretrain", "domain": "generic"}
+{"id": "generic-select-4-3", "text": "I would like to give me the entire directory", "intent": "select", "split": "pretrain", "domain": "generic"}
+{"id": "generic-select-5-0", "text": "view all entries", "intent": "select", "split": "pretrain", "domain": "generic"}
+{"id": "generic-select-5-1", "text": "Please view all entries", "intent": "select", "split": "pretrain", "domain": "generic"}
+{"id": "generic-select-5-2", "text": "Can you view all entries", "intent": "select", "split": "pretrain", "domain": "generic"}
+{"id": "generic-select-5-3", "text": "I would like to view all entries", "intent": "select", "split": "pretrain", "domain": "generic"}
+{"id": "generic-select-6-0", "text": "browse the catalog", "intent": "select", "split": "pretrain", "domain": "generic"}
+{"id": "generic-select-6-1", "text": "Please browse the catalog", "intent": "select", "split": "pretrain", "domain": "generic"}
+{"id": "generic-select-6-2", "text": "Can you browse the catalog", "intent": "select", "split": "pretrain", "domain": "generic"}
+{"id": "generic-select-6-3", "text": "I would like to browse the catalog", "intent": "select", "split": "pretrain", "domain": "generic"}
+{"id": "generic-select-7-0", "text": "read the full list", "intent": "select", "split": "pretrain", "domain": "generic"}
+{"id": "generic-select-7-1", "text": "Please read the full list", "intent": "select", "split": "pretrain", "domain": "generic"}
+{"id": "generic-select-7-2", "text": "Can you read the full list", "intent": "select", "split": "pretrain", "domain": "generic"}
+{"id": "generic-select-7-3", "text": "I would like to read the full list", "intent": "select", "split": "pretrain", "domain": "generic"}
+{"id": "sql-train-select-0-0", "text": "list all customers", "intent": "select", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-train-select-0-1", "text": "Please list all customers", "intent": "select", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-train-select-0-2", "text": "Can you list all customers", "intent": "select", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-train-select-1-0", "text": "show every customer record", "intent": "select", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-train-select-1-1", "text": "Please show every customer record", "intent": "select", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-train-select-1-2", "text": "Can you show every customer record", "intent": "select", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-train-select-2-0", "text": "display the customers table", "intent": "select", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-train-select-2-1", "text": "Please display the customers table", "intent": "select", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-train-select-2-2", "text": "Can you display the customers table", "intent": "select", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-train-select-3-0", "text": "retrieve all customer names", "intent": "select", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-train-select-3-1", "text": "Please retrieve all customer names", "intent": "select", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-train-select-3-2", "text": "Can you retrieve all customer names", "intent": "select", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-train-select-4-0", "text": "give me the customer directory", "intent": "select", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-train-select-4-1", "text": "Please give me the customer directory", "intent": "select", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-train-select-4-2", "text": "Can you give me the customer directory", "intent": "select", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-train-select-5-0", "text": "view the complete customer list", "intent": "select", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-train-select-5-1", "text": "Please view the complete customer list", "intent": "select", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-train-select-5-2", "text": "Can you view the complete customer list", "intent": "select", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-train-select-6-0", "text": "browse all customers", "intent": "select", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-train-select-6-1", "text": "Please browse all customers", "intent": "select", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-train-select-6-2", "text": "Can you browse all customers", "intent": "select", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-train-select-7-0", "text": "read every customer profile", "intent": "select", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-train-select-7-1", "text": "Please read every customer profile", "intent": "select", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-train-select-7-2", "text": "Can you read every customer profile", "intent": "select", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-train-select-8-0", "text": "show the entire customer roster", "intent": "select", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-train-select-8-1", "text": "Please show the entire customer roster", "intent": "select", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-train-select-8-2", "text": "Can you show the entire customer roster", "intent": "select", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-train-select-9-0", "text": "fetch customers without a condition", "intent": "select", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-train-select-9-1", "text": "Please fetch customers without a condition", "intent": "select", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-train-select-9-2", "text": "Can you fetch customers without a condition", "intent": "select", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-train-select-10-0", "text": "list customer names and cities", "intent": "select", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-train-select-10-1", "text": "Please list customer names and cities", "intent": "select", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-train-select-10-2", "text": "Can you list customer names and cities", "intent": "select", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-train-select-11-0", "text": "display each customer", "intent": "select", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-train-select-11-1", "text": "Please display each customer", "intent": "select", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-train-select-11-2", "text": "Can you display each customer", "intent": "select", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-dev-select-0-0", "text": "let me see all customers", "intent": "select", "split": "dev", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-dev-select-0-1", "text": "For this task, let me see all customers", "intent": "select", "split": "dev", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-dev-select-1-0", "text": "return the full customers directory", "intent": "select", "split": "dev", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-dev-select-1-1", "text": "For this task, return the full customers directory", "intent": "select", "split": "dev", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-dev-select-2-0", "text": "show all names in customers", "intent": "select", "split": "dev", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-dev-select-2-1", "text": "For this task, show all names in customers", "intent": "select", "split": "dev", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-dev-select-3-0", "text": "retrieve every customer profile", "intent": "select", "split": "dev", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-dev-select-3-1", "text": "For this task, retrieve every customer profile", "intent": "select", "split": "dev", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-dev-select-4-0", "text": "list the complete customer table", "intent": "select", "split": "dev", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-dev-select-4-1", "text": "For this task, list the complete customer table", "intent": "select", "split": "dev", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-dev-select-5-0", "text": "give all customer names", "intent": "select", "split": "dev", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-dev-select-5-1", "text": "For this task, give all customer names", "intent": "select", "split": "dev", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-test-select-0-0", "text": "who is in our customer directory", "intent": "select", "split": "test", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-test-select-0-1", "text": "For this task, who is in our customer directory", "intent": "select", "split": "test", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-test-select-1-0", "text": "pull up the whole customer roster", "intent": "select", "split": "test", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-test-select-1-1", "text": "For this task, pull up the whole customer roster", "intent": "select", "split": "test", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-test-select-2-0", "text": "I need a list of every customer", "intent": "select", "split": "test", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-test-select-2-1", "text": "For this task, I need a list of every customer", "intent": "select", "split": "test", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-test-select-3-0", "text": "display our entire customer directory", "intent": "select", "split": "test", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-test-select-3-1", "text": "For this task, display our entire customer directory", "intent": "select", "split": "test", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-test-select-4-0", "text": "show the complete set of customers", "intent": "select", "split": "test", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-test-select-4-1", "text": "For this task, show the complete set of customers", "intent": "select", "split": "test", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-test-select-5-0", "text": "return each customer name and city", "intent": "select", "split": "test", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-test-select-5-1", "text": "For this task, return each customer name and city", "intent": "select", "split": "test", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-test-select-6-0", "text": "fetch the full customer list", "intent": "select", "split": "test", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-test-select-6-1", "text": "For this task, fetch the full customer list", "intent": "select", "split": "test", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-test-select-7-0", "text": "read all rows of customers", "intent": "select", "split": "test", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "sql-test-select-7-1", "text": "For this task, read all rows of customers", "intent": "select", "split": "test", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers LIMIT 100;"}
+{"id": "generic-filter-0-0", "text": "find records matching a condition", "intent": "filter", "split": "pretrain", "domain": "generic"}
+{"id": "generic-filter-0-1", "text": "Please find records matching a condition", "intent": "filter", "split": "pretrain", "domain": "generic"}
+{"id": "generic-filter-0-2", "text": "Can you find records matching a condition", "intent": "filter", "split": "pretrain", "domain": "generic"}
+{"id": "generic-filter-0-3", "text": "I would like to find records matching a condition", "intent": "filter", "split": "pretrain", "domain": "generic"}
+{"id": "generic-filter-1-0", "text": "show profiles from a particular city", "intent": "filter", "split": "pretrain", "domain": "generic"}
+{"id": "generic-filter-1-1", "text": "Please show profiles from a particular city", "intent": "filter", "split": "pretrain", "domain": "generic"}
+{"id": "generic-filter-1-2", "text": "Can you show profiles from a particular city", "intent": "filter", "split": "pretrain", "domain": "generic"}
+{"id": "generic-filter-1-3", "text": "I would like to show profiles from a particular city", "intent": "filter", "split": "pretrain", "domain": "generic"}
+{"id": "generic-filter-2-0", "text": "list entries where status is active", "intent": "filter", "split": "pretrain", "domain": "generic"}
+{"id": "generic-filter-2-1", "text": "Please list entries where status is active", "intent": "filter", "split": "pretrain", "domain": "generic"}
+{"id": "generic-filter-2-2", "text": "Can you list entries where status is active", "intent": "filter", "split": "pretrain", "domain": "generic"}
+{"id": "generic-filter-2-3", "text": "I would like to list entries where status is active", "intent": "filter", "split": "pretrain", "domain": "generic"}
+{"id": "generic-filter-3-0", "text": "filter the directory by a chosen field", "intent": "filter", "split": "pretrain", "domain": "generic"}
+{"id": "generic-filter-3-1", "text": "Please filter the directory by a chosen field", "intent": "filter", "split": "pretrain", "domain": "generic"}
+{"id": "generic-filter-3-2", "text": "Can you filter the directory by a chosen field", "intent": "filter", "split": "pretrain", "domain": "generic"}
+{"id": "generic-filter-3-3", "text": "I would like to filter the directory by a chosen field", "intent": "filter", "split": "pretrain", "domain": "generic"}
+{"id": "generic-filter-4-0", "text": "retrieve only matching contacts", "intent": "filter", "split": "pretrain", "domain": "generic"}
+{"id": "generic-filter-4-1", "text": "Please retrieve only matching contacts", "intent": "filter", "split": "pretrain", "domain": "generic"}
+{"id": "generic-filter-4-2", "text": "Can you retrieve only matching contacts", "intent": "filter", "split": "pretrain", "domain": "generic"}
+{"id": "generic-filter-4-3", "text": "I would like to retrieve only matching contacts", "intent": "filter", "split": "pretrain", "domain": "generic"}
+{"id": "generic-filter-5-0", "text": "search for people from one location", "intent": "filter", "split": "pretrain", "domain": "generic"}
+{"id": "generic-filter-5-1", "text": "Please search for people from one location", "intent": "filter", "split": "pretrain", "domain": "generic"}
+{"id": "generic-filter-5-2", "text": "Can you search for people from one location", "intent": "filter", "split": "pretrain", "domain": "generic"}
+{"id": "generic-filter-5-3", "text": "I would like to search for people from one location", "intent": "filter", "split": "pretrain", "domain": "generic"}
+{"id": "generic-filter-6-0", "text": "display records that satisfy a rule", "intent": "filter", "split": "pretrain", "domain": "generic"}
+{"id": "generic-filter-6-1", "text": "Please display records that satisfy a rule", "intent": "filter", "split": "pretrain", "domain": "generic"}
+{"id": "generic-filter-6-2", "text": "Can you display records that satisfy a rule", "intent": "filter", "split": "pretrain", "domain": "generic"}
+{"id": "generic-filter-6-3", "text": "I would like to display records that satisfy a rule", "intent": "filter", "split": "pretrain", "domain": "generic"}
+{"id": "generic-filter-7-0", "text": "limit the list to a matching value", "intent": "filter", "split": "pretrain", "domain": "generic"}
+{"id": "generic-filter-7-1", "text": "Please limit the list to a matching value", "intent": "filter", "split": "pretrain", "domain": "generic"}
+{"id": "generic-filter-7-2", "text": "Can you limit the list to a matching value", "intent": "filter", "split": "pretrain", "domain": "generic"}
+{"id": "generic-filter-7-3", "text": "I would like to limit the list to a matching value", "intent": "filter", "split": "pretrain", "domain": "generic"}
+{"id": "sql-train-filter-0-0", "text": "find customers in a selected city", "intent": "filter", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-train-filter-0-1", "text": "Please find customers in a selected city", "intent": "filter", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-train-filter-0-2", "text": "Can you find customers in a selected city", "intent": "filter", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-train-filter-1-0", "text": "show customers where city matches the input", "intent": "filter", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-train-filter-1-1", "text": "Please show customers where city matches the input", "intent": "filter", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-train-filter-1-2", "text": "Can you show customers where city matches the input", "intent": "filter", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-train-filter-2-0", "text": "list customers from a particular city", "intent": "filter", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-train-filter-2-1", "text": "Please list customers from a particular city", "intent": "filter", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-train-filter-2-2", "text": "Can you list customers from a particular city", "intent": "filter", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-train-filter-3-0", "text": "filter customers by city", "intent": "filter", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-train-filter-3-1", "text": "Please filter customers by city", "intent": "filter", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-train-filter-3-2", "text": "Can you filter customers by city", "intent": "filter", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-train-filter-4-0", "text": "retrieve customers matching a city", "intent": "filter", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-train-filter-4-1", "text": "Please retrieve customers matching a city", "intent": "filter", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-train-filter-4-2", "text": "Can you retrieve customers matching a city", "intent": "filter", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-train-filter-5-0", "text": "search customers in London", "intent": "filter", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-train-filter-5-1", "text": "Please search customers in London", "intent": "filter", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-train-filter-5-2", "text": "Can you search customers in London", "intent": "filter", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-train-filter-6-0", "text": "display only customers in Paris", "intent": "filter", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-train-filter-6-1", "text": "Please display only customers in Paris", "intent": "filter", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-train-filter-6-2", "text": "Can you display only customers in Paris", "intent": "filter", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-train-filter-7-0", "text": "give customers whose city is Berlin", "intent": "filter", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-train-filter-7-1", "text": "Please give customers whose city is Berlin", "intent": "filter", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-train-filter-7-2", "text": "Can you give customers whose city is Berlin", "intent": "filter", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-train-filter-8-0", "text": "limit customers to Rome", "intent": "filter", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-train-filter-8-1", "text": "Please limit customers to Rome", "intent": "filter", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-train-filter-8-2", "text": "Can you limit customers to Rome", "intent": "filter", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-train-filter-9-0", "text": "show customers with city equal to Madrid", "intent": "filter", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-train-filter-9-1", "text": "Please show customers with city equal to Madrid", "intent": "filter", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-train-filter-9-2", "text": "Can you show customers with city equal to Madrid", "intent": "filter", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-train-filter-10-0", "text": "fetch customers who live in Dublin", "intent": "filter", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-train-filter-10-1", "text": "Please fetch customers who live in Dublin", "intent": "filter", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-train-filter-10-2", "text": "Can you fetch customers who live in Dublin", "intent": "filter", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-train-filter-11-0", "text": "select matching customers in a city", "intent": "filter", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-train-filter-11-1", "text": "Please select matching customers in a city", "intent": "filter", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-train-filter-11-2", "text": "Can you select matching customers in a city", "intent": "filter", "split": "train", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-dev-filter-0-0", "text": "find customer rows for Paris", "intent": "filter", "split": "dev", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-dev-filter-0-1", "text": "For this task, find customer rows for Paris", "intent": "filter", "split": "dev", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-dev-filter-1-0", "text": "return customers located in London", "intent": "filter", "split": "dev", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-dev-filter-1-1", "text": "For this task, return customers located in London", "intent": "filter", "split": "dev", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-dev-filter-2-0", "text": "show only matching customer cities", "intent": "filter", "split": "dev", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-dev-filter-2-1", "text": "For this task, show only matching customer cities", "intent": "filter", "split": "dev", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-dev-filter-3-0", "text": "filter the customer list to Madrid", "intent": "filter", "split": "dev", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-dev-filter-3-1", "text": "For this task, filter the customer list to Madrid", "intent": "filter", "split": "dev", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-dev-filter-4-0", "text": "retrieve customers that live in Rome", "intent": "filter", "split": "dev", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-dev-filter-4-1", "text": "For this task, retrieve customers that live in Rome", "intent": "filter", "split": "dev", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-dev-filter-5-0", "text": "display customer profiles from Berlin", "intent": "filter", "split": "dev", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-dev-filter-5-1", "text": "For this task, display customer profiles from Berlin", "intent": "filter", "split": "dev", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-test-filter-0-0", "text": "which customers live in Lisbon", "intent": "filter", "split": "test", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-test-filter-0-1", "text": "For this task, which customers live in Lisbon", "intent": "filter", "split": "test", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-test-filter-1-0", "text": "get customers whose city equals Oslo", "intent": "filter", "split": "test", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-test-filter-1-1", "text": "For this task, get customers whose city equals Oslo", "intent": "filter", "split": "test", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-test-filter-2-0", "text": "restrict the customer roster to Vienna", "intent": "filter", "split": "test", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-test-filter-2-1", "text": "For this task, restrict the customer roster to Vienna", "intent": "filter", "split": "test", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-test-filter-3-0", "text": "I need customers based in Prague", "intent": "filter", "split": "test", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-test-filter-3-1", "text": "For this task, I need customers based in Prague", "intent": "filter", "split": "test", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-test-filter-4-0", "text": "show customer rows matching Zurich", "intent": "filter", "split": "test", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-test-filter-4-1", "text": "For this task, show customer rows matching Zurich", "intent": "filter", "split": "test", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-test-filter-5-0", "text": "find everyone in customers from Helsinki", "intent": "filter", "split": "test", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-test-filter-5-1", "text": "For this task, find everyone in customers from Helsinki", "intent": "filter", "split": "test", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-test-filter-6-0", "text": "pull customers located in Athens", "intent": "filter", "split": "test", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-test-filter-6-1", "text": "For this task, pull customers located in Athens", "intent": "filter", "split": "test", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-test-filter-7-0", "text": "display customers with a city of Warsaw", "intent": "filter", "split": "test", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "sql-test-filter-7-1", "text": "For this task, display customers with a city of Warsaw", "intent": "filter", "split": "test", "domain": "sql", "sql_template": "SELECT customer_id, name, city FROM customers WHERE city = :city LIMIT 100;"}
+{"id": "generic-count-0-0", "text": "how many entries exist", "intent": "count", "split": "pretrain", "domain": "generic"}
+{"id": "generic-count-0-1", "text": "Please how many entries exist", "intent": "count", "split": "pretrain", "domain": "generic"}
+{"id": "generic-count-0-2", "text": "Can you how many entries exist", "intent": "count", "split": "pretrain", "domain": "generic"}
+{"id": "generic-count-0-3", "text": "I would like to how many entries exist", "intent": "count", "split": "pretrain", "domain": "generic"}
+{"id": "generic-count-1-0", "text": "count the records", "intent": "count", "split": "pretrain", "domain": "generic"}
+{"id": "generic-count-1-1", "text": "Please count the records", "intent": "count", "split": "pretrain", "domain": "generic"}
+{"id": "generic-count-1-2", "text": "Can you count the records", "intent": "count", "split": "pretrain", "domain": "generic"}
+{"id": "generic-count-1-3", "text": "I would like to count the records", "intent": "count", "split": "pretrain", "domain": "generic"}
+{"id": "generic-count-2-0", "text": "return the number of profiles", "intent": "count", "split": "pretrain", "domain": "generic"}
+{"id": "generic-count-2-1", "text": "Please return the number of profiles", "intent": "count", "split": "pretrain", "domain": "generic"}
+{"id": "generic-count-2-2", "text": "Can you return the number of profiles", "intent": "count", "split": "pretrain", "domain": "generic"}
+{"id": "generic-count-2-3", "text": "I would like to return the number of profiles", "intent": "count", "split": "pretrain", "domain": "generic"}
+{"id": "generic-count-3-0", "text": "give the total number of items", "intent": "count", "split": "pretrain", "domain": "generic"}
+{"id": "generic-count-3-1", "text": "Please give the total number of items", "intent": "count", "split": "pretrain", "domain": "generic"}
+{"id": "generic-count-3-2", "text": "Can you give the total number of items", "intent": "count", "split": "pretrain", "domain": "generic"}
+{"id": "generic-count-3-3", "text": "I would like to give the total number of items", "intent": "count", "split": "pretrain", "domain": "generic"}
+{"id": "generic-count-4-0", "text": "calculate how many contacts are saved", "intent": "count", "split": "pretrain", "domain": "generic"}
+{"id": "generic-count-4-1", "text": "Please calculate how many contacts are saved", "intent": "count", "split": "pretrain", "domain": "generic"}
+{"id": "generic-count-4-2", "text": "Can you calculate how many contacts are saved", "intent": "count", "split": "pretrain", "domain": "generic"}
+{"id": "generic-count-4-3", "text": "I would like to calculate how many contacts are saved", "intent": "count", "split": "pretrain", "domain": "generic"}
+{"id": "generic-count-5-0", "text": "report the record count", "intent": "count", "split": "pretrain", "domain": "generic"}
+{"id": "generic-count-5-1", "text": "Please report the record count", "intent": "count", "split": "pretrain", "domain": "generic"}
+{"id": "generic-count-5-2", "text": "Can you report the record count", "intent": "count", "split": "pretrain", "domain": "generic"}
+{"id": "generic-count-5-3", "text": "I would like to report the record count", "intent": "count", "split": "pretrain", "domain": "generic"}
+{"id": "generic-count-6-0", "text": "measure the number of entries", "intent": "count", "split": "pretrain", "domain": "generic"}
+{"id": "generic-count-6-1", "text": "Please measure the number of entries", "intent": "count", "split": "pretrain", "domain": "generic"}
+{"id": "generic-count-6-2", "text": "Can you measure the number of entries", "intent": "count", "split": "pretrain", "domain": "generic"}
+{"id": "generic-count-6-3", "text": "I would like to measure the number of entries", "intent": "count", "split": "pretrain", "domain": "generic"}
+{"id": "generic-count-7-0", "text": "tell me the size of the directory", "intent": "count", "split": "pretrain", "domain": "generic"}
+{"id": "generic-count-7-1", "text": "Please tell me the size of the directory", "intent": "count", "split": "pretrain", "domain": "generic"}
+{"id": "generic-count-7-2", "text": "Can you tell me the size of the directory", "intent": "count", "split": "pretrain", "domain": "generic"}
+{"id": "generic-count-7-3", "text": "I would like to tell me the size of the directory", "intent": "count", "split": "pretrain", "domain": "generic"}
+{"id": "sql-train-count-0-0", "text": "count all customers", "intent": "count", "split": "train", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-train-count-0-1", "text": "Please count all customers", "intent": "count", "split": "train", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-train-count-0-2", "text": "Can you count all customers", "intent": "count", "split": "train", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-train-count-1-0", "text": "how many customers are there", "intent": "count", "split": "train", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-train-count-1-1", "text": "Please how many customers are there", "intent": "count", "split": "train", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-train-count-1-2", "text": "Can you how many customers are there", "intent": "count", "split": "train", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-train-count-2-0", "text": "return the customer count", "intent": "count", "split": "train", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-train-count-2-1", "text": "Please return the customer count", "intent": "count", "split": "train", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-train-count-2-2", "text": "Can you return the customer count", "intent": "count", "split": "train", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-train-count-3-0", "text": "give the total number of customers", "intent": "count", "split": "train", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-train-count-3-1", "text": "Please give the total number of customers", "intent": "count", "split": "train", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-train-count-3-2", "text": "Can you give the total number of customers", "intent": "count", "split": "train", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-train-count-4-0", "text": "calculate the number of customer records", "intent": "count", "split": "train", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-train-count-4-1", "text": "Please calculate the number of customer records", "intent": "count", "split": "train", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-train-count-4-2", "text": "Can you calculate the number of customer records", "intent": "count", "split": "train", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-train-count-5-0", "text": "tell me how many customers exist", "intent": "count", "split": "train", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-train-count-5-1", "text": "Please tell me how many customers exist", "intent": "count", "split": "train", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-train-count-5-2", "text": "Can you tell me how many customers exist", "intent": "count", "split": "train", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-train-count-6-0", "text": "show the count of customers", "intent": "count", "split": "train", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-train-count-6-1", "text": "Please show the count of customers", "intent": "count", "split": "train", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-train-count-6-2", "text": "Can you show the count of customers", "intent": "count", "split": "train", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-train-count-7-0", "text": "report total customer rows", "intent": "count", "split": "train", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-train-count-7-1", "text": "Please report total customer rows", "intent": "count", "split": "train", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-train-count-7-2", "text": "Can you report total customer rows", "intent": "count", "split": "train", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-train-count-8-0", "text": "measure the customer directory size", "intent": "count", "split": "train", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-train-count-8-1", "text": "Please measure the customer directory size", "intent": "count", "split": "train", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-train-count-8-2", "text": "Can you measure the customer directory size", "intent": "count", "split": "train", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-train-count-9-0", "text": "get the customer record count", "intent": "count", "split": "train", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-train-count-9-1", "text": "Please get the customer record count", "intent": "count", "split": "train", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-train-count-9-2", "text": "Can you get the customer record count", "intent": "count", "split": "train", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-train-count-10-0", "text": "number of customers please", "intent": "count", "split": "train", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-train-count-10-1", "text": "Please number of customers please", "intent": "count", "split": "train", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-train-count-10-2", "text": "Can you number of customers please", "intent": "count", "split": "train", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-train-count-11-0", "text": "count rows in customers", "intent": "count", "split": "train", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-train-count-11-1", "text": "Please count rows in customers", "intent": "count", "split": "train", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-train-count-11-2", "text": "Can you count rows in customers", "intent": "count", "split": "train", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-dev-count-0-0", "text": "what is the count of customer profiles", "intent": "count", "split": "dev", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-dev-count-0-1", "text": "For this task, what is the count of customer profiles", "intent": "count", "split": "dev", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-dev-count-1-0", "text": "how large is the customer table", "intent": "count", "split": "dev", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-dev-count-1-1", "text": "For this task, how large is the customer table", "intent": "count", "split": "dev", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-dev-count-2-0", "text": "return how many customer rows exist", "intent": "count", "split": "dev", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-dev-count-2-1", "text": "For this task, return how many customer rows exist", "intent": "count", "split": "dev", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-dev-count-3-0", "text": "total customer count please", "intent": "count", "split": "dev", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-dev-count-3-1", "text": "For this task, total customer count please", "intent": "count", "split": "dev", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-dev-count-4-0", "text": "calculate customer table size", "intent": "count", "split": "dev", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-dev-count-4-1", "text": "For this task, calculate customer table size", "intent": "count", "split": "dev", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-dev-count-5-0", "text": "tell me the number of customer entries", "intent": "count", "split": "dev", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-dev-count-5-1", "text": "For this task, tell me the number of customer entries", "intent": "count", "split": "dev", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-test-count-0-0", "text": "how many people are recorded as customers", "intent": "count", "split": "test", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-test-count-0-1", "text": "For this task, how many people are recorded as customers", "intent": "count", "split": "test", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-test-count-1-0", "text": "what number of customer profiles do we have", "intent": "count", "split": "test", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-test-count-1-1", "text": "For this task, what number of customer profiles do we have", "intent": "count", "split": "test", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-test-count-2-0", "text": "count every row in the customer directory", "intent": "count", "split": "test", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-test-count-2-1", "text": "For this task, count every row in the customer directory", "intent": "count", "split": "test", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-test-count-3-0", "text": "I need the total customer population", "intent": "count", "split": "test", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-test-count-3-1", "text": "For this task, I need the total customer population", "intent": "count", "split": "test", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-test-count-4-0", "text": "give me a tally of customer records", "intent": "count", "split": "test", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-test-count-4-1", "text": "For this task, give me a tally of customer records", "intent": "count", "split": "test", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-test-count-5-0", "text": "return a count for the whole customers table", "intent": "count", "split": "test", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-test-count-5-1", "text": "For this task, return a count for the whole customers table", "intent": "count", "split": "test", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-test-count-6-0", "text": "how many entries does customers contain", "intent": "count", "split": "test", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-test-count-6-1", "text": "For this task, how many entries does customers contain", "intent": "count", "split": "test", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-test-count-7-0", "text": "report the number of saved customers", "intent": "count", "split": "test", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "sql-test-count-7-1", "text": "For this task, report the number of saved customers", "intent": "count", "split": "test", "domain": "sql", "sql_template": "SELECT COUNT(*) AS customer_count FROM customers;"}
+{"id": "generic-group-0-0", "text": "summarize totals by category", "intent": "group", "split": "pretrain", "domain": "generic"}
+{"id": "generic-group-0-1", "text": "Please summarize totals by category", "intent": "group", "split": "pretrain", "domain": "generic"}
+{"id": "generic-group-0-2", "text": "Can you summarize totals by category", "intent": "group", "split": "pretrain", "domain": "generic"}
+{"id": "generic-group-0-3", "text": "I would like to summarize totals by category", "intent": "group", "split": "pretrain", "domain": "generic"}
+{"id": "generic-group-1-0", "text": "aggregate spending per location", "intent": "group", "split": "pretrain", "domain": "generic"}
+{"id": "generic-group-1-1", "text": "Please aggregate spending per location", "intent": "group", "split": "pretrain", "domain": "generic"}
+{"id": "generic-group-1-2", "text": "Can you aggregate spending per location", "intent": "group", "split": "pretrain", "domain": "generic"}
+{"id": "generic-group-1-3", "text": "I would like to aggregate spending per location", "intent": "group", "split": "pretrain", "domain": "generic"}
+{"id": "generic-group-2-0", "text": "group entries by their department", "intent": "group", "split": "pretrain", "domain": "generic"}
+{"id": "generic-group-2-1", "text": "Please group entries by their department", "intent": "group", "split": "pretrain", "domain": "generic"}
+{"id": "generic-group-2-2", "text": "Can you group entries by their department", "intent": "group", "split": "pretrain", "domain": "generic"}
+{"id": "generic-group-2-3", "text": "I would like to group entries by their department", "intent": "group", "split": "pretrain", "domain": "generic"}
+{"id": "generic-group-3-0", "text": "calculate a total for each region", "intent": "group", "split": "pretrain", "domain": "generic"}
+{"id": "generic-group-3-1", "text": "Please calculate a total for each region", "intent": "group", "split": "pretrain", "domain": "generic"}
+{"id": "generic-group-3-2", "text": "Can you calculate a total for each region", "intent": "group", "split": "pretrain", "domain": "generic"}
+{"id": "generic-group-3-3", "text": "I would like to calculate a total for each region", "intent": "group", "split": "pretrain", "domain": "generic"}
+{"id": "generic-group-4-0", "text": "break down the sum by city", "intent": "group", "split": "pretrain", "domain": "generic"}
+{"id": "generic-group-4-1", "text": "Please break down the sum by city", "intent": "group", "split": "pretrain", "domain": "generic"}
+{"id": "generic-group-4-2", "text": "Can you break down the sum by city", "intent": "group", "split": "pretrain", "domain": "generic"}
+{"id": "generic-group-4-3", "text": "I would like to break down the sum by city", "intent": "group", "split": "pretrain", "domain": "generic"}
+{"id": "generic-group-5-0", "text": "give category level totals", "intent": "group", "split": "pretrain", "domain": "generic"}
+{"id": "generic-group-5-1", "text": "Please give category level totals", "intent": "group", "split": "pretrain", "domain": "generic"}
+{"id": "generic-group-5-2", "text": "Can you give category level totals", "intent": "group", "split": "pretrain", "domain": "generic"}
+{"id": "generic-group-5-3", "text": "I would like to give category level totals", "intent": "group", "split": "pretrain", "domain": "generic"}
+{"id": "generic-group-6-0", "text": "roll up values for every group", "intent": "group", "split": "pretrain", "domain": "generic"}
+{"id": "generic-group-6-1", "text": "Please roll up values for every group", "intent": "group", "split": "pretrain", "domain": "generic"}
+{"id": "generic-group-6-2", "text": "Can you roll up values for every group", "intent": "group", "split": "pretrain", "domain": "generic"}
+{"id": "generic-group-6-3", "text": "I would like to roll up values for every group", "intent": "group", "split": "pretrain", "domain": "generic"}
+{"id": "generic-group-7-0", "text": "sum amounts grouped by location", "intent": "group", "split": "pretrain", "domain": "generic"}
+{"id": "generic-group-7-1", "text": "Please sum amounts grouped by location", "intent": "group", "split": "pretrain", "domain": "generic"}
+{"id": "generic-group-7-2", "text": "Can you sum amounts grouped by location", "intent": "group", "split": "pretrain", "domain": "generic"}
+{"id": "generic-group-7-3", "text": "I would like to sum amounts grouped by location", "intent": "group", "split": "pretrain", "domain": "generic"}
+{"id": "sql-train-group-0-0", "text": "sum order totals by customer city", "intent": "group", "split": "train", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-train-group-0-1", "text": "Please sum order totals by customer city", "intent": "group", "split": "train", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-train-group-0-2", "text": "Can you sum order totals by customer city", "intent": "group", "split": "train", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-train-group-1-0", "text": "group revenue by city", "intent": "group", "split": "train", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-train-group-1-1", "text": "Please group revenue by city", "intent": "group", "split": "train", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-train-group-1-2", "text": "Can you group revenue by city", "intent": "group", "split": "train", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-train-group-2-0", "text": "aggregate customer spending per city", "intent": "group", "split": "train", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-train-group-2-1", "text": "Please aggregate customer spending per city", "intent": "group", "split": "train", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-train-group-2-2", "text": "Can you aggregate customer spending per city", "intent": "group", "split": "train", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-train-group-3-0", "text": "show revenue for each city", "intent": "group", "split": "train", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-train-group-3-1", "text": "Please show revenue for each city", "intent": "group", "split": "train", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-train-group-3-2", "text": "Can you show revenue for each city", "intent": "group", "split": "train", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-train-group-4-0", "text": "break down order totals by city", "intent": "group", "split": "train", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-train-group-4-1", "text": "Please break down order totals by city", "intent": "group", "split": "train", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-train-group-4-2", "text": "Can you break down order totals by city", "intent": "group", "split": "train", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-train-group-5-0", "text": "summarize order revenue by city", "intent": "group", "split": "train", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-train-group-5-1", "text": "Please summarize order revenue by city", "intent": "group", "split": "train", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-train-group-5-2", "text": "Can you summarize order revenue by city", "intent": "group", "split": "train", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-train-group-6-0", "text": "total order value grouped by city", "intent": "group", "split": "train", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-train-group-6-1", "text": "Please total order value grouped by city", "intent": "group", "split": "train", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-train-group-6-2", "text": "Can you total order value grouped by city", "intent": "group", "split": "train", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-train-group-7-0", "text": "calculate sales totals for every city", "intent": "group", "split": "train", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-train-group-7-1", "text": "Please calculate sales totals for every city", "intent": "group", "split": "train", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-train-group-7-2", "text": "Can you calculate sales totals for every city", "intent": "group", "split": "train", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-train-group-8-0", "text": "roll up revenue per customer city", "intent": "group", "split": "train", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-train-group-8-1", "text": "Please roll up revenue per customer city", "intent": "group", "split": "train", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-train-group-8-2", "text": "Can you roll up revenue per customer city", "intent": "group", "split": "train", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-train-group-9-0", "text": "give city level spending totals", "intent": "group", "split": "train", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-train-group-9-1", "text": "Please give city level spending totals", "intent": "group", "split": "train", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-train-group-9-2", "text": "Can you give city level spending totals", "intent": "group", "split": "train", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-train-group-10-0", "text": "sum purchases for each city", "intent": "group", "split": "train", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-train-group-10-1", "text": "Please sum purchases for each city", "intent": "group", "split": "train", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-train-group-10-2", "text": "Can you sum purchases for each city", "intent": "group", "split": "train", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-train-group-11-0", "text": "group orders and sum totals by city", "intent": "group", "split": "train", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-train-group-11-1", "text": "Please group orders and sum totals by city", "intent": "group", "split": "train", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-train-group-11-2", "text": "Can you group orders and sum totals by city", "intent": "group", "split": "train", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-dev-group-0-0", "text": "give an aggregate of spending by city", "intent": "group", "split": "dev", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-dev-group-0-1", "text": "For this task, give an aggregate of spending by city", "intent": "group", "split": "dev", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-dev-group-1-0", "text": "what are sales totals per city", "intent": "group", "split": "dev", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-dev-group-1-1", "text": "For this task, what are sales totals per city", "intent": "group", "split": "dev", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-dev-group-2-0", "text": "summarize revenue for each customer city", "intent": "group", "split": "dev", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-dev-group-2-1", "text": "For this task, summarize revenue for each customer city", "intent": "group", "split": "dev", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-dev-group-3-0", "text": "calculate grouped order totals by city", "intent": "group", "split": "dev", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-dev-group-3-1", "text": "For this task, calculate grouped order totals by city", "intent": "group", "split": "dev", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-dev-group-4-0", "text": "break down spending per city", "intent": "group", "split": "dev", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-dev-group-4-1", "text": "For this task, break down spending per city", "intent": "group", "split": "dev", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-dev-group-5-0", "text": "return city level order revenue", "intent": "group", "split": "dev", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-dev-group-5-1", "text": "For this task, return city level order revenue", "intent": "group", "split": "dev", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-test-group-0-0", "text": "for each city add up the order amounts", "intent": "group", "split": "test", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-test-group-0-1", "text": "For this task, for each city add up the order amounts", "intent": "group", "split": "test", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-test-group-1-0", "text": "I need a revenue breakdown across cities", "intent": "group", "split": "test", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-test-group-1-1", "text": "For this task, I need a revenue breakdown across cities", "intent": "group", "split": "test", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-test-group-2-0", "text": "show a sum of sales grouped by customer location", "intent": "group", "split": "test", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-test-group-2-1", "text": "For this task, show a sum of sales grouped by customer location", "intent": "group", "split": "test", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-test-group-3-0", "text": "total the orders separately for each city", "intent": "group", "split": "test", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-test-group-3-1", "text": "For this task, total the orders separately for each city", "intent": "group", "split": "test", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-test-group-4-0", "text": "roll up purchase amounts by city", "intent": "group", "split": "test", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-test-group-4-1", "text": "For this task, roll up purchase amounts by city", "intent": "group", "split": "test", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-test-group-5-0", "text": "compute the revenue aggregate per city", "intent": "group", "split": "test", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-test-group-5-1", "text": "For this task, compute the revenue aggregate per city", "intent": "group", "split": "test", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-test-group-6-0", "text": "report spending totals for every customer city", "intent": "group", "split": "test", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-test-group-6-1", "text": "For this task, report spending totals for every customer city", "intent": "group", "split": "test", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-test-group-7-0", "text": "summarize total order value by customer city", "intent": "group", "split": "test", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "sql-test-group-7-1", "text": "For this task, summarize total order value by customer city", "intent": "group", "split": "test", "domain": "sql", "sql_template": "SELECT c.city, SUM(o.total) AS revenue FROM customers c JOIN orders o ON o.customer_id = c.customer_id GROUP BY c.city;"}
+{"id": "generic-join-0-0", "text": "link profiles with their related records", "intent": "join", "split": "pretrain", "domain": "generic"}
+{"id": "generic-join-0-1", "text": "Please link profiles with their related records", "intent": "join", "split": "pretrain", "domain": "generic"}
+{"id": "generic-join-0-2", "text": "Can you link profiles with their related records", "intent": "join", "split": "pretrain", "domain": "generic"}
+{"id": "generic-join-0-3", "text": "I would like to link profiles with their related records", "intent": "join", "split": "pretrain", "domain": "generic"}
+{"id": "generic-join-1-0", "text": "combine contacts and transactions", "intent": "join", "split": "pretrain", "domain": "generic"}
+{"id": "generic-join-1-1", "text": "Please combine contacts and transactions", "intent": "join", "split": "pretrain", "domain": "generic"}
+{"id": "generic-join-1-2", "text": "Can you combine contacts and transactions", "intent": "join", "split": "pretrain", "domain": "generic"}
+{"id": "generic-join-1-3", "text": "I would like to combine contacts and transactions", "intent": "join", "split": "pretrain", "domain": "generic"}
+{"id": "generic-join-2-0", "text": "match people to their purchases", "intent": "join", "split": "pretrain", "domain": "generic"}
+{"id": "generic-join-2-1", "text": "Please match people to their purchases", "intent": "join", "split": "pretrain", "domain": "generic"}
+{"id": "generic-join-2-2", "text": "Can you match people to their purchases", "intent": "join", "split": "pretrain", "domain": "generic"}
+{"id": "generic-join-2-3", "text": "I would like to match people to their purchases", "intent": "join", "split": "pretrain", "domain": "generic"}
+{"id": "generic-join-3-0", "text": "join the two collections", "intent": "join", "split": "pretrain", "domain": "generic"}
+{"id": "generic-join-3-1", "text": "Please join the two collections", "intent": "join", "split": "pretrain", "domain": "generic"}
+{"id": "generic-join-3-2", "text": "Can you join the two collections", "intent": "join", "split": "pretrain", "domain": "generic"}
+{"id": "generic-join-3-3", "text": "I would like to join the two collections", "intent": "join", "split": "pretrain", "domain": "generic"}
+{"id": "generic-join-4-0", "text": "connect each profile to its history", "intent": "join", "split": "pretrain", "domain": "generic"}
+{"id": "generic-join-4-1", "text": "Please connect each profile to its history", "intent": "join", "split": "pretrain", "domain": "generic"}
+{"id": "generic-join-4-2", "text": "Can you connect each profile to its history", "intent": "join", "split": "pretrain", "domain": "generic"}
+{"id": "generic-join-4-3", "text": "I would like to connect each profile to its history", "intent": "join", "split": "pretrain", "domain": "generic"}
+{"id": "generic-join-5-0", "text": "show related entries beside their owners", "intent": "join", "split": "pretrain", "domain": "generic"}
+{"id": "generic-join-5-1", "text": "Please show related entries beside their owners", "intent": "join", "split": "pretrain", "domain": "generic"}
+{"id": "generic-join-5-2", "text": "Can you show related entries beside their owners", "intent": "join", "split": "pretrain", "domain": "generic"}
+{"id": "generic-join-5-3", "text": "I would like to show related entries beside their owners", "intent": "join", "split": "pretrain", "domain": "generic"}
+{"id": "generic-join-6-0", "text": "associate members with their bookings", "intent": "join", "split": "pretrain", "domain": "generic"}
+{"id": "generic-join-6-1", "text": "Please associate members with their bookings", "intent": "join", "split": "pretrain", "domain": "generic"}
+{"id": "generic-join-6-2", "text": "Can you associate members with their bookings", "intent": "join", "split": "pretrain", "domain": "generic"}
+{"id": "generic-join-6-3", "text": "I would like to associate members with their bookings", "intent": "join", "split": "pretrain", "domain": "generic"}
+{"id": "generic-join-7-0", "text": "merge records using their common identifier", "intent": "join", "split": "pretrain", "domain": "generic"}
+{"id": "generic-join-7-1", "text": "Please merge records using their common identifier", "intent": "join", "split": "pretrain", "domain": "generic"}
+{"id": "generic-join-7-2", "text": "Can you merge records using their common identifier", "intent": "join", "split": "pretrain", "domain": "generic"}
+{"id": "generic-join-7-3", "text": "I would like to merge records using their common identifier", "intent": "join", "split": "pretrain", "domain": "generic"}
+{"id": "sql-train-join-0-0", "text": "join customers and orders", "intent": "join", "split": "train", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-train-join-0-1", "text": "Please join customers and orders", "intent": "join", "split": "train", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-train-join-0-2", "text": "Can you join customers and orders", "intent": "join", "split": "train", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-train-join-1-0", "text": "show customers with their orders", "intent": "join", "split": "train", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-train-join-1-1", "text": "Please show customers with their orders", "intent": "join", "split": "train", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-train-join-1-2", "text": "Can you show customers with their orders", "intent": "join", "split": "train", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-train-join-2-0", "text": "link each customer to their purchases", "intent": "join", "split": "train", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-train-join-2-1", "text": "Please link each customer to their purchases", "intent": "join", "split": "train", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-train-join-2-2", "text": "Can you link each customer to their purchases", "intent": "join", "split": "train", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-train-join-3-0", "text": "combine customer names and order totals", "intent": "join", "split": "train", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-train-join-3-1", "text": "Please combine customer names and order totals", "intent": "join", "split": "train", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-train-join-3-2", "text": "Can you combine customer names and order totals", "intent": "join", "split": "train", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-train-join-4-0", "text": "match orders with customer profiles", "intent": "join", "split": "train", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-train-join-4-1", "text": "Please match orders with customer profiles", "intent": "join", "split": "train", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-train-join-4-2", "text": "Can you match orders with customer profiles", "intent": "join", "split": "train", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-train-join-5-0", "text": "connect customers and order records", "intent": "join", "split": "train", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-train-join-5-1", "text": "Please connect customers and order records", "intent": "join", "split": "train", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-train-join-5-2", "text": "Can you connect customers and order records", "intent": "join", "split": "train", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-train-join-6-0", "text": "list orders beside their customer names", "intent": "join", "split": "train", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-train-join-6-1", "text": "Please list orders beside their customer names", "intent": "join", "split": "train", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-train-join-6-2", "text": "Can you list orders beside their customer names", "intent": "join", "split": "train", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-train-join-7-0", "text": "show related orders for each customer", "intent": "join", "split": "train", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-train-join-7-1", "text": "Please show related orders for each customer", "intent": "join", "split": "train", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-train-join-7-2", "text": "Can you show related orders for each customer", "intent": "join", "split": "train", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-train-join-8-0", "text": "merge customers with orders by customer id", "intent": "join", "split": "train", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-train-join-8-1", "text": "Please merge customers with orders by customer id", "intent": "join", "split": "train", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-train-join-8-2", "text": "Can you merge customers with orders by customer id", "intent": "join", "split": "train", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-train-join-9-0", "text": "associate customers with their order history", "intent": "join", "split": "train", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-train-join-9-1", "text": "Please associate customers with their order history", "intent": "join", "split": "train", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-train-join-9-2", "text": "Can you associate customers with their order history", "intent": "join", "split": "train", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-train-join-10-0", "text": "retrieve customer names along with orders", "intent": "join", "split": "train", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-train-join-10-1", "text": "Please retrieve customer names along with orders", "intent": "join", "split": "train", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-train-join-10-2", "text": "Can you retrieve customer names along with orders", "intent": "join", "split": "train", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-train-join-11-0", "text": "display orders and their owners", "intent": "join", "split": "train", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-train-join-11-1", "text": "Please display orders and their owners", "intent": "join", "split": "train", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-train-join-11-2", "text": "Can you display orders and their owners", "intent": "join", "split": "train", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-dev-join-0-0", "text": "give customers alongside their purchases", "intent": "join", "split": "dev", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-dev-join-0-1", "text": "For this task, give customers alongside their purchases", "intent": "join", "split": "dev", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-dev-join-1-0", "text": "connect the orders table to customers", "intent": "join", "split": "dev", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-dev-join-1-1", "text": "For this task, connect the orders table to customers", "intent": "join", "split": "dev", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-dev-join-2-0", "text": "show names associated with order ids", "intent": "join", "split": "dev", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-dev-join-2-1", "text": "For this task, show names associated with order ids", "intent": "join", "split": "dev", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-dev-join-3-0", "text": "match each purchase to a customer", "intent": "join", "split": "dev", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-dev-join-3-1", "text": "For this task, match each purchase to a customer", "intent": "join", "split": "dev", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-dev-join-4-0", "text": "combine customer information with order records", "intent": "join", "split": "dev", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-dev-join-4-1", "text": "For this task, combine customer information with order records", "intent": "join", "split": "dev", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-dev-join-5-0", "text": "link orders to customer names", "intent": "join", "split": "dev", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-dev-join-5-1", "text": "For this task, link orders to customer names", "intent": "join", "split": "dev", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-test-join-0-0", "text": "who placed each order", "intent": "join", "split": "test", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-test-join-0-1", "text": "For this task, who placed each order", "intent": "join", "split": "test", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-test-join-1-0", "text": "show a customer's name next to each purchase", "intent": "join", "split": "test", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-test-join-1-1", "text": "For this task, show a customer's name next to each purchase", "intent": "join", "split": "test", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-test-join-2-0", "text": "pair the order history with customer profiles", "intent": "join", "split": "test", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-test-join-2-1", "text": "For this task, pair the order history with customer profiles", "intent": "join", "split": "test", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-test-join-3-0", "text": "get order totals together with buyer names", "intent": "join", "split": "test", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-test-join-3-1", "text": "For this task, get order totals together with buyer names", "intent": "join", "split": "test", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-test-join-4-0", "text": "bring customer and purchase records together", "intent": "join", "split": "test", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-test-join-4-1", "text": "For this task, bring customer and purchase records together", "intent": "join", "split": "test", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-test-join-5-0", "text": "attach customers to their order rows", "intent": "join", "split": "test", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-test-join-5-1", "text": "For this task, attach customers to their order rows", "intent": "join", "split": "test", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-test-join-6-0", "text": "look up each order's customer name", "intent": "join", "split": "test", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-test-join-6-1", "text": "For this task, look up each order's customer name", "intent": "join", "split": "test", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-test-join-7-0", "text": "give order details and the corresponding customers", "intent": "join", "split": "test", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "sql-test-join-7-1", "text": "For this task, give order details and the corresponding customers", "intent": "join", "split": "test", "domain": "sql", "sql_template": "SELECT c.name, o.order_id, o.total FROM customers c JOIN orders o ON o.customer_id = c.customer_id LIMIT 100;"}
+{"id": "generic-insert-0-0", "text": "add a new contact", "intent": "insert", "split": "pretrain", "domain": "generic"}
+{"id": "generic-insert-0-1", "text": "Please add a new contact", "intent": "insert", "split": "pretrain", "domain": "generic"}
+{"id": "generic-insert-0-2", "text": "Can you add a new contact", "intent": "insert", "split": "pretrain", "domain": "generic"}
+{"id": "generic-insert-0-3", "text": "I would like to add a new contact", "intent": "insert", "split": "pretrain", "domain": "generic"}
+{"id": "generic-insert-1-0", "text": "create a record", "intent": "insert", "split": "pretrain", "domain": "generic"}
+{"id": "generic-insert-1-1", "text": "Please create a record", "intent": "insert", "split": "pretrain", "domain": "generic"}
+{"id": "generic-insert-1-2", "text": "Can you create a record", "intent": "insert", "split": "pretrain", "domain": "generic"}
+{"id": "generic-insert-1-3", "text": "I would like to create a record", "intent": "insert", "split": "pretrain", "domain": "generic"}
+{"id": "generic-insert-2-0", "text": "insert a new entry", "intent": "insert", "split": "pretrain", "domain": "generic"}
+{"id": "generic-insert-2-1", "text": "Please insert a new entry", "intent": "insert", "split": "pretrain", "domain": "generic"}
+{"id": "generic-insert-2-2", "text": "Can you insert a new entry", "intent": "insert", "split": "pretrain", "domain": "generic"}
+{"id": "generic-insert-2-3", "text": "I would like to insert a new entry", "intent": "insert", "split": "pretrain", "domain": "generic"}
+{"id": "generic-insert-3-0", "text": "register a person", "intent": "insert", "split": "pretrain", "domain": "generic"}
+{"id": "generic-insert-3-1", "text": "Please register a person", "intent": "insert", "split": "pretrain", "domain": "generic"}
+{"id": "generic-insert-3-2", "text": "Can you register a person", "intent": "insert", "split": "pretrain", "domain": "generic"}
+{"id": "generic-insert-3-3", "text": "I would like to register a person", "intent": "insert", "split": "pretrain", "domain": "generic"}
+{"id": "generic-insert-4-0", "text": "save a new profile", "intent": "insert", "split": "pretrain", "domain": "generic"}
+{"id": "generic-insert-4-1", "text": "Please save a new profile", "intent": "insert", "split": "pretrain", "domain": "generic"}
+{"id": "generic-insert-4-2", "text": "Can you save a new profile", "intent": "insert", "split": "pretrain", "domain": "generic"}
+{"id": "generic-insert-4-3", "text": "I would like to save a new profile", "intent": "insert", "split": "pretrain", "domain": "generic"}
+{"id": "generic-insert-5-0", "text": "append an item to the directory", "intent": "insert", "split": "pretrain", "domain": "generic"}
+{"id": "generic-insert-5-1", "text": "Please append an item to the directory", "intent": "insert", "split": "pretrain", "domain": "generic"}
+{"id": "generic-insert-5-2", "text": "Can you append an item to the directory", "intent": "insert", "split": "pretrain", "domain": "generic"}
+{"id": "generic-insert-5-3", "text": "I would like to append an item to the directory", "intent": "insert", "split": "pretrain", "domain": "generic"}
+{"id": "generic-insert-6-0", "text": "make a new record", "intent": "insert", "split": "pretrain", "domain": "generic"}
+{"id": "generic-insert-6-1", "text": "Please make a new record", "intent": "insert", "split": "pretrain", "domain": "generic"}
+{"id": "generic-insert-6-2", "text": "Can you make a new record", "intent": "insert", "split": "pretrain", "domain": "generic"}
+{"id": "generic-insert-6-3", "text": "I would like to make a new record", "intent": "insert", "split": "pretrain", "domain": "generic"}
+{"id": "generic-insert-7-0", "text": "put a new contact in the list", "intent": "insert", "split": "pretrain", "domain": "generic"}
+{"id": "generic-insert-7-1", "text": "Please put a new contact in the list", "intent": "insert", "split": "pretrain", "domain": "generic"}
+{"id": "generic-insert-7-2", "text": "Can you put a new contact in the list", "intent": "insert", "split": "pretrain", "domain": "generic"}
+{"id": "generic-insert-7-3", "text": "I would like to put a new contact in the list", "intent": "insert", "split": "pretrain", "domain": "generic"}
+{"id": "sql-train-insert-0-0", "text": "insert a new customer", "intent": "insert", "split": "train", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-train-insert-0-1", "text": "Please insert a new customer", "intent": "insert", "split": "train", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-train-insert-0-2", "text": "Can you insert a new customer", "intent": "insert", "split": "train", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-train-insert-1-0", "text": "add a customer with name and city", "intent": "insert", "split": "train", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-train-insert-1-1", "text": "Please add a customer with name and city", "intent": "insert", "split": "train", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-train-insert-1-2", "text": "Can you add a customer with name and city", "intent": "insert", "split": "train", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-train-insert-2-0", "text": "create a customer record", "intent": "insert", "split": "train", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-train-insert-2-1", "text": "Please create a customer record", "intent": "insert", "split": "train", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-train-insert-2-2", "text": "Can you create a customer record", "intent": "insert", "split": "train", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-train-insert-3-0", "text": "register a new customer profile", "intent": "insert", "split": "train", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-train-insert-3-1", "text": "Please register a new customer profile", "intent": "insert", "split": "train", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-train-insert-3-2", "text": "Can you register a new customer profile", "intent": "insert", "split": "train", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-train-insert-4-0", "text": "save a new customer", "intent": "insert", "split": "train", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-train-insert-4-1", "text": "Please save a new customer", "intent": "insert", "split": "train", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-train-insert-4-2", "text": "Can you save a new customer", "intent": "insert", "split": "train", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-train-insert-5-0", "text": "append a customer to the table", "intent": "insert", "split": "train", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-train-insert-5-1", "text": "Please append a customer to the table", "intent": "insert", "split": "train", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-train-insert-5-2", "text": "Can you append a customer to the table", "intent": "insert", "split": "train", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-train-insert-6-0", "text": "make a customer entry", "intent": "insert", "split": "train", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-train-insert-6-1", "text": "Please make a customer entry", "intent": "insert", "split": "train", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-train-insert-6-2", "text": "Can you make a customer entry", "intent": "insert", "split": "train", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-train-insert-7-0", "text": "put a new customer in the database", "intent": "insert", "split": "train", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-train-insert-7-1", "text": "Please put a new customer in the database", "intent": "insert", "split": "train", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-train-insert-7-2", "text": "Can you put a new customer in the database", "intent": "insert", "split": "train", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-train-insert-8-0", "text": "add a new row to customers", "intent": "insert", "split": "train", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-train-insert-8-1", "text": "Please add a new row to customers", "intent": "insert", "split": "train", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-train-insert-8-2", "text": "Can you add a new row to customers", "intent": "insert", "split": "train", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-train-insert-9-0", "text": "create a customer named Avery", "intent": "insert", "split": "train", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-train-insert-9-1", "text": "Please create a customer named Avery", "intent": "insert", "split": "train", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-train-insert-9-2", "text": "Can you create a customer named Avery", "intent": "insert", "split": "train", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-train-insert-10-0", "text": "insert customer name and city values", "intent": "insert", "split": "train", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-train-insert-10-1", "text": "Please insert customer name and city values", "intent": "insert", "split": "train", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-train-insert-10-2", "text": "Can you insert customer name and city values", "intent": "insert", "split": "train", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-train-insert-11-0", "text": "register a customer from London", "intent": "insert", "split": "train", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-train-insert-11-1", "text": "Please register a customer from London", "intent": "insert", "split": "train", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-train-insert-11-2", "text": "Can you register a customer from London", "intent": "insert", "split": "train", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-dev-insert-0-0", "text": "save a fresh customer profile", "intent": "insert", "split": "dev", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-dev-insert-0-1", "text": "For this task, save a fresh customer profile", "intent": "insert", "split": "dev", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-dev-insert-1-0", "text": "add someone to the customers table", "intent": "insert", "split": "dev", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-dev-insert-1-1", "text": "For this task, add someone to the customers table", "intent": "insert", "split": "dev", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-dev-insert-2-0", "text": "make a new customer record", "intent": "insert", "split": "dev", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-dev-insert-2-1", "text": "For this task, make a new customer record", "intent": "insert", "split": "dev", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-dev-insert-3-0", "text": "insert a customer row with their city", "intent": "insert", "split": "dev", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-dev-insert-3-1", "text": "For this task, insert a customer row with their city", "intent": "insert", "split": "dev", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-dev-insert-4-0", "text": "create another customer profile", "intent": "insert", "split": "dev", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-dev-insert-4-1", "text": "For this task, create another customer profile", "intent": "insert", "split": "dev", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-dev-insert-5-0", "text": "register someone as a customer", "intent": "insert", "split": "dev", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-dev-insert-5-1", "text": "For this task, register someone as a customer", "intent": "insert", "split": "dev", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-test-insert-0-0", "text": "enroll a new customer named Morgan", "intent": "insert", "split": "test", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-test-insert-0-1", "text": "For this task, enroll a new customer named Morgan", "intent": "insert", "split": "test", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-test-insert-1-0", "text": "put a fresh customer into customers", "intent": "insert", "split": "test", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-test-insert-1-1", "text": "For this task, put a fresh customer into customers", "intent": "insert", "split": "test", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-test-insert-2-0", "text": "I want to add Casey as a customer", "intent": "insert", "split": "test", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-test-insert-2-1", "text": "For this task, I want to add Casey as a customer", "intent": "insert", "split": "test", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-test-insert-3-0", "text": "write a new customer record with name and city", "intent": "insert", "split": "test", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-test-insert-3-1", "text": "For this task, write a new customer record with name and city", "intent": "insert", "split": "test", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-test-insert-4-0", "text": "store a new customer profile", "intent": "insert", "split": "test", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-test-insert-4-1", "text": "For this task, store a new customer profile", "intent": "insert", "split": "test", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-test-insert-5-0", "text": "append another person to customers", "intent": "insert", "split": "test", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-test-insert-5-1", "text": "For this task, append another person to customers", "intent": "insert", "split": "test", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-test-insert-6-0", "text": "create an entry for a new buyer", "intent": "insert", "split": "test", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-test-insert-6-1", "text": "For this task, create an entry for a new buyer", "intent": "insert", "split": "test", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-test-insert-7-0", "text": "insert one customer into the customer table", "intent": "insert", "split": "test", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "sql-test-insert-7-1", "text": "For this task, insert one customer into the customer table", "intent": "insert", "split": "test", "domain": "sql", "sql_template": "INSERT INTO customers (name, city) VALUES (:name, :city);"}
+{"id": "generic-update-0-0", "text": "change an existing profile", "intent": "update", "split": "pretrain", "domain": "generic"}
+{"id": "generic-update-0-1", "text": "Please change an existing profile", "intent": "update", "split": "pretrain", "domain": "generic"}
+{"id": "generic-update-0-2", "text": "Can you change an existing profile", "intent": "update", "split": "pretrain", "domain": "generic"}
+{"id": "generic-update-0-3", "text": "I would like to change an existing profile", "intent": "update", "split": "pretrain", "domain": "generic"}
+{"id": "generic-update-1-0", "text": "update a record", "intent": "update", "split": "pretrain", "domain": "generic"}
+{"id": "generic-update-1-1", "text": "Please update a record", "intent": "update", "split": "pretrain", "domain": "generic"}
+{"id": "generic-update-1-2", "text": "Can you update a record", "intent": "update", "split": "pretrain", "domain": "generic"}
+{"id": "generic-update-1-3", "text": "I would like to update a record", "intent": "update", "split": "pretrain", "domain": "generic"}
+{"id": "generic-update-2-0", "text": "edit a saved contact", "intent": "update", "split": "pretrain", "domain": "generic"}
+{"id": "generic-update-2-1", "text": "Please edit a saved contact", "intent": "update", "split": "pretrain", "domain": "generic"}
+{"id": "generic-update-2-2", "text": "Can you edit a saved contact", "intent": "update", "split": "pretrain", "domain": "generic"}
+{"id": "generic-update-2-3", "text": "I would like to edit a saved contact", "intent": "update", "split": "pretrain", "domain": "generic"}
+{"id": "generic-update-3-0", "text": "replace a field value", "intent": "update", "split": "pretrain", "domain": "generic"}
+{"id": "generic-update-3-1", "text": "Please replace a field value", "intent": "update", "split": "pretrain", "domain": "generic"}
+{"id": "generic-update-3-2", "text": "Can you replace a field value", "intent": "update", "split": "pretrain", "domain": "generic"}
+{"id": "generic-update-3-3", "text": "I would like to replace a field value", "intent": "update", "split": "pretrain", "domain": "generic"}
+{"id": "generic-update-4-0", "text": "modify a person in the directory", "intent": "update", "split": "pretrain", "domain": "generic"}
+{"id": "generic-update-4-1", "text": "Please modify a person in the directory", "intent": "update", "split": "pretrain", "domain": "generic"}
+{"id": "generic-update-4-2", "text": "Can you modify a person in the directory", "intent": "update", "split": "pretrain", "domain": "generic"}
+{"id": "generic-update-4-3", "text": "I would like to modify a person in the directory", "intent": "update", "split": "pretrain", "domain": "generic"}
+{"id": "generic-update-5-0", "text": "set the location of an existing entry", "intent": "update", "split": "pretrain", "domain": "generic"}
+{"id": "generic-update-5-1", "text": "Please set the location of an existing entry", "intent": "update", "split": "pretrain", "domain": "generic"}
+{"id": "generic-update-5-2", "text": "Can you set the location of an existing entry", "intent": "update", "split": "pretrain", "domain": "generic"}
+{"id": "generic-update-5-3", "text": "I would like to set the location of an existing entry", "intent": "update", "split": "pretrain", "domain": "generic"}
+{"id": "generic-update-6-0", "text": "correct a stored address", "intent": "update", "split": "pretrain", "domain": "generic"}
+{"id": "generic-update-6-1", "text": "Please correct a stored address", "intent": "update", "split": "pretrain", "domain": "generic"}
+{"id": "generic-update-6-2", "text": "Can you correct a stored address", "intent": "update", "split": "pretrain", "domain": "generic"}
+{"id": "generic-update-6-3", "text": "I would like to correct a stored address", "intent": "update", "split": "pretrain", "domain": "generic"}
+{"id": "generic-update-7-0", "text": "revise an existing record", "intent": "update", "split": "pretrain", "domain": "generic"}
+{"id": "generic-update-7-1", "text": "Please revise an existing record", "intent": "update", "split": "pretrain", "domain": "generic"}
+{"id": "generic-update-7-2", "text": "Can you revise an existing record", "intent": "update", "split": "pretrain", "domain": "generic"}
+{"id": "generic-update-7-3", "text": "I would like to revise an existing record", "intent": "update", "split": "pretrain", "domain": "generic"}
+{"id": "sql-train-update-0-0", "text": "update a customer's city", "intent": "update", "split": "train", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-train-update-0-1", "text": "Please update a customer's city", "intent": "update", "split": "train", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-train-update-0-2", "text": "Can you update a customer's city", "intent": "update", "split": "train", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-train-update-1-0", "text": "change the city of an existing customer", "intent": "update", "split": "train", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-train-update-1-1", "text": "Please change the city of an existing customer", "intent": "update", "split": "train", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-train-update-1-2", "text": "Can you change the city of an existing customer", "intent": "update", "split": "train", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-train-update-2-0", "text": "edit a customer record", "intent": "update", "split": "train", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-train-update-2-1", "text": "Please edit a customer record", "intent": "update", "split": "train", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-train-update-2-2", "text": "Can you edit a customer record", "intent": "update", "split": "train", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-train-update-3-0", "text": "set the customer's city to Paris", "intent": "update", "split": "train", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-train-update-3-1", "text": "Please set the customer's city to Paris", "intent": "update", "split": "train", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-train-update-3-2", "text": "Can you set the customer's city to Paris", "intent": "update", "split": "train", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-train-update-4-0", "text": "modify a customer's city field", "intent": "update", "split": "train", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-train-update-4-1", "text": "Please modify a customer's city field", "intent": "update", "split": "train", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-train-update-4-2", "text": "Can you modify a customer's city field", "intent": "update", "split": "train", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-train-update-5-0", "text": "replace a saved customer city", "intent": "update", "split": "train", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-train-update-5-1", "text": "Please replace a saved customer city", "intent": "update", "split": "train", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-train-update-5-2", "text": "Can you replace a saved customer city", "intent": "update", "split": "train", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-train-update-6-0", "text": "correct a customer's city", "intent": "update", "split": "train", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-train-update-6-1", "text": "Please correct a customer's city", "intent": "update", "split": "train", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-train-update-6-2", "text": "Can you correct a customer's city", "intent": "update", "split": "train", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-train-update-7-0", "text": "revise an existing customer profile", "intent": "update", "split": "train", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-train-update-7-1", "text": "Please revise an existing customer profile", "intent": "update", "split": "train", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-train-update-7-2", "text": "Can you revise an existing customer profile", "intent": "update", "split": "train", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-train-update-8-0", "text": "update customer by customer id", "intent": "update", "split": "train", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-train-update-8-1", "text": "Please update customer by customer id", "intent": "update", "split": "train", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-train-update-8-2", "text": "Can you update customer by customer id", "intent": "update", "split": "train", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-train-update-9-0", "text": "change customer city to London", "intent": "update", "split": "train", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-train-update-9-1", "text": "Please change customer city to London", "intent": "update", "split": "train", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-train-update-9-2", "text": "Can you change customer city to London", "intent": "update", "split": "train", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-train-update-10-0", "text": "edit the city for one customer", "intent": "update", "split": "train", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-train-update-10-1", "text": "Please edit the city for one customer", "intent": "update", "split": "train", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-train-update-10-2", "text": "Can you edit the city for one customer", "intent": "update", "split": "train", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-train-update-11-0", "text": "set a different city for a customer", "intent": "update", "split": "train", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-train-update-11-1", "text": "Please set a different city for a customer", "intent": "update", "split": "train", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-train-update-11-2", "text": "Can you set a different city for a customer", "intent": "update", "split": "train", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-dev-update-0-0", "text": "correct the city stored for a customer", "intent": "update", "split": "dev", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-dev-update-0-1", "text": "For this task, correct the city stored for a customer", "intent": "update", "split": "dev", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-dev-update-1-0", "text": "modify the customer city by id", "intent": "update", "split": "dev", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-dev-update-1-1", "text": "For this task, modify the customer city by id", "intent": "update", "split": "dev", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-dev-update-2-0", "text": "replace the city of a saved customer", "intent": "update", "split": "dev", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-dev-update-2-1", "text": "For this task, replace the city of a saved customer", "intent": "update", "split": "dev", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-dev-update-3-0", "text": "edit an existing customer's location", "intent": "update", "split": "dev", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-dev-update-3-1", "text": "For this task, edit an existing customer's location", "intent": "update", "split": "dev", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-dev-update-4-0", "text": "update a customer to a new city", "intent": "update", "split": "dev", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-dev-update-4-1", "text": "For this task, update a customer to a new city", "intent": "update", "split": "dev", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-dev-update-5-0", "text": "revise one customer's city value", "intent": "update", "split": "dev", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-dev-update-5-1", "text": "For this task, revise one customer's city value", "intent": "update", "split": "dev", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-test-update-0-0", "text": "move customer 42 to a different city", "intent": "update", "split": "test", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-test-update-0-1", "text": "For this task, move customer 42 to a different city", "intent": "update", "split": "test", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-test-update-1-0", "text": "make the customer's city read Lisbon", "intent": "update", "split": "test", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-test-update-1-1", "text": "For this task, make the customer's city read Lisbon", "intent": "update", "split": "test", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-test-update-2-0", "text": "change where an existing customer lives", "intent": "update", "split": "test", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-test-update-2-1", "text": "For this task, change where an existing customer lives", "intent": "update", "split": "test", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-test-update-3-0", "text": "overwrite the city on one customer profile", "intent": "update", "split": "test", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-test-update-3-1", "text": "For this task, overwrite the city on one customer profile", "intent": "update", "split": "test", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-test-update-4-0", "text": "fix the location of the selected customer", "intent": "update", "split": "test", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-test-update-4-1", "text": "For this task, fix the location of the selected customer", "intent": "update", "split": "test", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-test-update-5-0", "text": "set customer 7's city to Oslo", "intent": "update", "split": "test", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-test-update-5-1", "text": "For this task, set customer 7's city to Oslo", "intent": "update", "split": "test", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-test-update-6-0", "text": "amend an existing customer's city", "intent": "update", "split": "test", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-test-update-6-1", "text": "For this task, amend an existing customer's city", "intent": "update", "split": "test", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-test-update-7-0", "text": "edit a saved customer's city field", "intent": "update", "split": "test", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "sql-test-update-7-1", "text": "For this task, edit a saved customer's city field", "intent": "update", "split": "test", "domain": "sql", "sql_template": "UPDATE customers SET city = :city WHERE customer_id = :customer_id;"}
+{"id": "generic-delete-0-0", "text": "remove an existing contact", "intent": "delete", "split": "pretrain", "domain": "generic"}
+{"id": "generic-delete-0-1", "text": "Please remove an existing contact", "intent": "delete", "split": "pretrain", "domain": "generic"}
+{"id": "generic-delete-0-2", "text": "Can you remove an existing contact", "intent": "delete", "split": "pretrain", "domain": "generic"}
+{"id": "generic-delete-0-3", "text": "I would like to remove an existing contact", "intent": "delete", "split": "pretrain", "domain": "generic"}
+{"id": "generic-delete-1-0", "text": "delete a record", "intent": "delete", "split": "pretrain", "domain": "generic"}
+{"id": "generic-delete-1-1", "text": "Please delete a record", "intent": "delete", "split": "pretrain", "domain": "generic"}
+{"id": "generic-delete-1-2", "text": "Can you delete a record", "intent": "delete", "split": "pretrain", "domain": "generic"}
+{"id": "generic-delete-1-3", "text": "I would like to delete a record", "intent": "delete", "split": "pretrain", "domain": "generic"}
+{"id": "generic-delete-2-0", "text": "erase an entry", "intent": "delete", "split": "pretrain", "domain": "generic"}
+{"id": "generic-delete-2-1", "text": "Please erase an entry", "intent": "delete", "split": "pretrain", "domain": "generic"}
+{"id": "generic-delete-2-2", "text": "Can you erase an entry", "intent": "delete", "split": "pretrain", "domain": "generic"}
+{"id": "generic-delete-2-3", "text": "I would like to erase an entry", "intent": "delete", "split": "pretrain", "domain": "generic"}
+{"id": "generic-delete-3-0", "text": "drop a person from the directory", "intent": "delete", "split": "pretrain", "domain": "generic"}
+{"id": "generic-delete-3-1", "text": "Please drop a person from the directory", "intent": "delete", "split": "pretrain", "domain": "generic"}
+{"id": "generic-delete-3-2", "text": "Can you drop a person from the directory", "intent": "delete", "split": "pretrain", "domain": "generic"}
+{"id": "generic-delete-3-3", "text": "I would like to drop a person from the directory", "intent": "delete", "split": "pretrain", "domain": "generic"}
+{"id": "generic-delete-4-0", "text": "discard a saved profile", "intent": "delete", "split": "pretrain", "domain": "generic"}
+{"id": "generic-delete-4-1", "text": "Please discard a saved profile", "intent": "delete", "split": "pretrain", "domain": "generic"}
+{"id": "generic-delete-4-2", "text": "Can you discard a saved profile", "intent": "delete", "split": "pretrain", "domain": "generic"}
+{"id": "generic-delete-4-3", "text": "I would like to discard a saved profile", "intent": "delete", "split": "pretrain", "domain": "generic"}
+{"id": "generic-delete-5-0", "text": "purge the chosen item", "intent": "delete", "split": "pretrain", "domain": "generic"}
+{"id": "generic-delete-5-1", "text": "Please purge the chosen item", "intent": "delete", "split": "pretrain", "domain": "generic"}
+{"id": "generic-delete-5-2", "text": "Can you purge the chosen item", "intent": "delete", "split": "pretrain", "domain": "generic"}
+{"id": "generic-delete-5-3", "text": "I would like to purge the chosen item", "intent": "delete", "split": "pretrain", "domain": "generic"}
+{"id": "generic-delete-6-0", "text": "take a record out of the list", "intent": "delete", "split": "pretrain", "domain": "generic"}
+{"id": "generic-delete-6-1", "text": "Please take a record out of the list", "intent": "delete", "split": "pretrain", "domain": "generic"}
+{"id": "generic-delete-6-2", "text": "Can you take a record out of the list", "intent": "delete", "split": "pretrain", "domain": "generic"}
+{"id": "generic-delete-6-3", "text": "I would like to take a record out of the list", "intent": "delete", "split": "pretrain", "domain": "generic"}
+{"id": "generic-delete-7-0", "text": "remove the selected entry", "intent": "delete", "split": "pretrain", "domain": "generic"}
+{"id": "generic-delete-7-1", "text": "Please remove the selected entry", "intent": "delete", "split": "pretrain", "domain": "generic"}
+{"id": "generic-delete-7-2", "text": "Can you remove the selected entry", "intent": "delete", "split": "pretrain", "domain": "generic"}
+{"id": "generic-delete-7-3", "text": "I would like to remove the selected entry", "intent": "delete", "split": "pretrain", "domain": "generic"}
+{"id": "sql-train-delete-0-0", "text": "delete a customer by id", "intent": "delete", "split": "train", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-train-delete-0-1", "text": "Please delete a customer by id", "intent": "delete", "split": "train", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-train-delete-0-2", "text": "Can you delete a customer by id", "intent": "delete", "split": "train", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-train-delete-1-0", "text": "remove one customer record", "intent": "delete", "split": "train", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-train-delete-1-1", "text": "Please remove one customer record", "intent": "delete", "split": "train", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-train-delete-1-2", "text": "Can you remove one customer record", "intent": "delete", "split": "train", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-train-delete-2-0", "text": "erase the selected customer", "intent": "delete", "split": "train", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-train-delete-2-1", "text": "Please erase the selected customer", "intent": "delete", "split": "train", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-train-delete-2-2", "text": "Can you erase the selected customer", "intent": "delete", "split": "train", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-train-delete-3-0", "text": "drop a customer from the table", "intent": "delete", "split": "train", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-train-delete-3-1", "text": "Please drop a customer from the table", "intent": "delete", "split": "train", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-train-delete-3-2", "text": "Can you drop a customer from the table", "intent": "delete", "split": "train", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-train-delete-4-0", "text": "discard a saved customer", "intent": "delete", "split": "train", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-train-delete-4-1", "text": "Please discard a saved customer", "intent": "delete", "split": "train", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-train-delete-4-2", "text": "Can you discard a saved customer", "intent": "delete", "split": "train", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-train-delete-5-0", "text": "purge a customer's profile", "intent": "delete", "split": "train", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-train-delete-5-1", "text": "Please purge a customer's profile", "intent": "delete", "split": "train", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-train-delete-5-2", "text": "Can you purge a customer's profile", "intent": "delete", "split": "train", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-train-delete-6-0", "text": "take a customer out of the database", "intent": "delete", "split": "train", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-train-delete-6-1", "text": "Please take a customer out of the database", "intent": "delete", "split": "train", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-train-delete-6-2", "text": "Can you take a customer out of the database", "intent": "delete", "split": "train", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-train-delete-7-0", "text": "remove an existing customer", "intent": "delete", "split": "train", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-train-delete-7-1", "text": "Please remove an existing customer", "intent": "delete", "split": "train", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-train-delete-7-2", "text": "Can you remove an existing customer", "intent": "delete", "split": "train", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-train-delete-8-0", "text": "delete the chosen customer row", "intent": "delete", "split": "train", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-train-delete-8-1", "text": "Please delete the chosen customer row", "intent": "delete", "split": "train", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-train-delete-8-2", "text": "Can you delete the chosen customer row", "intent": "delete", "split": "train", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-train-delete-9-0", "text": "erase customer with a given id", "intent": "delete", "split": "train", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-train-delete-9-1", "text": "Please erase customer with a given id", "intent": "delete", "split": "train", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-train-delete-9-2", "text": "Can you erase customer with a given id", "intent": "delete", "split": "train", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-train-delete-10-0", "text": "remove customer 12", "intent": "delete", "split": "train", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-train-delete-10-1", "text": "Please remove customer 12", "intent": "delete", "split": "train", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-train-delete-10-2", "text": "Can you remove customer 12", "intent": "delete", "split": "train", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-train-delete-11-0", "text": "delete one entry in customers", "intent": "delete", "split": "train", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-train-delete-11-1", "text": "Please delete one entry in customers", "intent": "delete", "split": "train", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-train-delete-11-2", "text": "Can you delete one entry in customers", "intent": "delete", "split": "train", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-dev-delete-0-0", "text": "purge the customer identified by id", "intent": "delete", "split": "dev", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-dev-delete-0-1", "text": "For this task, purge the customer identified by id", "intent": "delete", "split": "dev", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-dev-delete-1-0", "text": "discard an existing customer row", "intent": "delete", "split": "dev", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-dev-delete-1-1", "text": "For this task, discard an existing customer row", "intent": "delete", "split": "dev", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-dev-delete-2-0", "text": "take one person out of customers", "intent": "delete", "split": "dev", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-dev-delete-2-1", "text": "For this task, take one person out of customers", "intent": "delete", "split": "dev", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-dev-delete-3-0", "text": "erase a customer's saved profile", "intent": "delete", "split": "dev", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-dev-delete-3-1", "text": "For this task, erase a customer's saved profile", "intent": "delete", "split": "dev", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-dev-delete-4-0", "text": "remove the selected customer entry", "intent": "delete", "split": "dev", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-dev-delete-4-1", "text": "For this task, remove the selected customer entry", "intent": "delete", "split": "dev", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-dev-delete-5-0", "text": "delete customer profile by identifier", "intent": "delete", "split": "dev", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-dev-delete-5-1", "text": "For this task, delete customer profile by identifier", "intent": "delete", "split": "dev", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-test-delete-0-0", "text": "remove customer 42 from our records", "intent": "delete", "split": "test", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-test-delete-0-1", "text": "For this task, remove customer 42 from our records", "intent": "delete", "split": "test", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-test-delete-1-0", "text": "erase the row belonging to customer 7", "intent": "delete", "split": "test", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-test-delete-1-1", "text": "For this task, erase the row belonging to customer 7", "intent": "delete", "split": "test", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-test-delete-2-0", "text": "I want to delete a saved customer", "intent": "delete", "split": "test", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-test-delete-2-1", "text": "For this task, I want to delete a saved customer", "intent": "delete", "split": "test", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-test-delete-3-0", "text": "take the chosen customer off the roster", "intent": "delete", "split": "test", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-test-delete-3-1", "text": "For this task, take the chosen customer off the roster", "intent": "delete", "split": "test", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-test-delete-4-0", "text": "purge one customer from customers", "intent": "delete", "split": "test", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-test-delete-4-1", "text": "For this task, purge one customer from customers", "intent": "delete", "split": "test", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-test-delete-5-0", "text": "discard a customer record by its id", "intent": "delete", "split": "test", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-test-delete-5-1", "text": "For this task, discard a customer record by its id", "intent": "delete", "split": "test", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-test-delete-6-0", "text": "drop the selected customer profile", "intent": "delete", "split": "test", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-test-delete-6-1", "text": "For this task, drop the selected customer profile", "intent": "delete", "split": "test", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-test-delete-7-0", "text": "delete a single customer entry", "intent": "delete", "split": "test", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}
+{"id": "sql-test-delete-7-1", "text": "For this task, delete a single customer entry", "intent": "delete", "split": "test", "domain": "sql", "sql_template": "DELETE FROM customers WHERE customer_id = :customer_id;"}

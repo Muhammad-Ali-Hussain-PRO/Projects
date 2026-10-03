@@ -1,0 +1,1600 @@
+{
+  "experiment": "Small domain adaptation baseline: generic intent pretraining -> SQL intent adaptation",
+  "seed": 17,
+  "split_counts": {
+    "pretrain": 256,
+    "train": 288,
+    "dev": 96,
+    "test": 128
+  },
+  "labels": [
+    "select",
+    "filter",
+    "count",
+    "group",
+    "join",
+    "insert",
+    "update",
+    "delete"
+  ],
+  "vocabulary_size": 791,
+  "epochs": {
+    "generic_pretrain": 60,
+    "sql_adapt": 45,
+    "sql_scratch": 45
+  },
+  "dataset_sha256": "95d2318340c18ebf1f5625d54598dc829766c180abd6568ff9529d2b0f2fac31",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "sklearn": "1.8.0"
+  },
+  "metrics": {
+    "generic_base": {
+      "dev": {
+        "accuracy": 0.84375,
+        "macro_f1": 0.8353967716835624,
+        "correct": 81,
+        "total": 96,
+        "confusion_matrix": [
+          [
+            12,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            10,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            11,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            12,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            12,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2,
+            10,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            2,
+            2,
+            0,
+            2,
+            5,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            2,
+            9
+          ]
+        ]
+      },
+      "test": {
+        "accuracy": 0.6640625,
+        "macro_f1": 0.6570778062437426,
+        "correct": 85,
+        "total": 128,
+        "confusion_matrix": [
+          [
+            12,
+            2,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            5,
+            2,
+            4,
+            0,
+            0,
+            3,
+            0
+          ],
+          [
+            2,
+            0,
+            14,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            16,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0,
+            8,
+            6,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            1,
+            0,
+            14,
+            0,
+            0
+          ],
+          [
+            3,
+            2,
+            0,
+            2,
+            0,
+            0,
+            7,
+            2
+          ],
+          [
+            2,
+            2,
+            0,
+            1,
+            0,
+            0,
+            0,
+            11
+          ]
+        ]
+      }
+    },
+    "sql_from_scratch": {
+      "dev": {
+        "accuracy": 0.8333333333333334,
+        "macro_f1": 0.820629973474801,
+        "correct": 80,
+        "total": 96,
+        "confusion_matrix": [
+          [
+            10,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            5,
+            4,
+            2,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            10,
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            12,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            12,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            1,
+            8,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            12,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            12
+          ]
+        ]
+      },
+      "test": {
+        "accuracy": 0.828125,
+        "macro_f1": 0.820403573035152,
+        "correct": 106,
+        "total": 128,
+        "confusion_matrix": [
+          [
+            8,
+            2,
+            4,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            2,
+            12,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            16,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            16,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            3,
+            10,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            14,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            14,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            16
+          ]
+        ]
+      }
+    },
+    "sql_adapted": {
+      "dev": {
+        "accuracy": 0.9270833333333334,
+        "macro_f1": 0.9274475524475525,
+        "correct": 89,
+        "total": 96,
+        "confusion_matrix": [
+          [
+            10,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            10,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            11,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            12,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            12,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2,
+            10,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            12,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            12
+          ]
+        ]
+      },
+      "test": {
+        "accuracy": 0.8359375,
+        "macro_f1": 0.8309103956898074,
+        "correct": 107,
+        "total": 128,
+        "confusion_matrix": [
+          [
+            10,
+            2,
+            2,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            2,
+            14,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            14,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            16,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            5,
+            9,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            14,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            14,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            16
+          ]
+        ]
+      }
+    }
+  },
+  "held_out_cases": [
+    {
+      "id": "sql-test-select-0-0",
+      "text": "who is in our customer directory",
+      "expected": "select",
+      "predicted": "filter",
+      "confidence": 0.3789059937625286,
+      "correct": false
+    },
+    {
+      "id": "sql-test-select-0-1",
+      "text": "For this task, who is in our customer directory",
+      "expected": "select",
+      "predicted": "filter",
+      "confidence": 0.3865201468399262,
+      "correct": false
+    },
+    {
+      "id": "sql-test-select-1-0",
+      "text": "pull up the whole customer roster",
+      "expected": "select",
+      "predicted": "select",
+      "confidence": 0.46526817626579586,
+      "correct": true
+    },
+    {
+      "id": "sql-test-select-1-1",
+      "text": "For this task, pull up the whole customer roster",
+      "expected": "select",
+      "predicted": "select",
+      "confidence": 0.37794160613153377,
+      "correct": true
+    },
+    {
+      "id": "sql-test-select-2-0",
+      "text": "I need a list of every customer",
+      "expected": "select",
+      "predicted": "select",
+      "confidence": 0.6833086053654625,
+      "correct": true
+    },
+    {
+      "id": "sql-test-select-2-1",
+      "text": "For this task, I need a list of every customer",
+      "expected": "select",
+      "predicted": "select",
+      "confidence": 0.6536399243196637,
+      "correct": true
+    },
+    {
+      "id": "sql-test-select-3-0",
+      "text": "display our entire customer directory",
+      "expected": "select",
+      "predicted": "select",
+      "confidence": 0.5570567847718862,
+      "correct": true
+    },
+    {
+      "id": "sql-test-select-3-1",
+      "text": "For this task, display our entire customer directory",
+      "expected": "select",
+      "predicted": "select",
+      "confidence": 0.548259909185715,
+      "correct": true
+    },
+    {
+      "id": "sql-test-select-4-0",
+      "text": "show the complete set of customers",
+      "expected": "select",
+      "predicted": "select",
+      "confidence": 0.43273471871160607,
+      "correct": true
+    },
+    {
+      "id": "sql-test-select-4-1",
+      "text": "For this task, show the complete set of customers",
+      "expected": "select",
+      "predicted": "select",
+      "confidence": 0.4051051419940632,
+      "correct": true
+    },
+    {
+      "id": "sql-test-select-5-0",
+      "text": "return each customer name and city",
+      "expected": "select",
+      "predicted": "insert",
+      "confidence": 0.45091896264130477,
+      "correct": false
+    },
+    {
+      "id": "sql-test-select-5-1",
+      "text": "For this task, return each customer name and city",
+      "expected": "select",
+      "predicted": "insert",
+      "confidence": 0.4182806188930947,
+      "correct": false
+    },
+    {
+      "id": "sql-test-select-6-0",
+      "text": "fetch the full customer list",
+      "expected": "select",
+      "predicted": "select",
+      "confidence": 0.6743379360690612,
+      "correct": true
+    },
+    {
+      "id": "sql-test-select-6-1",
+      "text": "For this task, fetch the full customer list",
+      "expected": "select",
+      "predicted": "select",
+      "confidence": 0.668824869535661,
+      "correct": true
+    },
+    {
+      "id": "sql-test-select-7-0",
+      "text": "read all rows of customers",
+      "expected": "select",
+      "predicted": "count",
+      "confidence": 0.46804386329129105,
+      "correct": false
+    },
+    {
+      "id": "sql-test-select-7-1",
+      "text": "For this task, read all rows of customers",
+      "expected": "select",
+      "predicted": "count",
+      "confidence": 0.4713425949280428,
+      "correct": false
+    },
+    {
+      "id": "sql-test-filter-0-0",
+      "text": "which customers live in Lisbon",
+      "expected": "filter",
+      "predicted": "filter",
+      "confidence": 0.516978625800391,
+      "correct": true
+    },
+    {
+      "id": "sql-test-filter-0-1",
+      "text": "For this task, which customers live in Lisbon",
+      "expected": "filter",
+      "predicted": "filter",
+      "confidence": 0.5345670952282875,
+      "correct": true
+    },
+    {
+      "id": "sql-test-filter-1-0",
+      "text": "get customers whose city equals Oslo",
+      "expected": "filter",
+      "predicted": "filter",
+      "confidence": 0.4541784048706311,
+      "correct": true
+    },
+    {
+      "id": "sql-test-filter-1-1",
+      "text": "For this task, get customers whose city equals Oslo",
+      "expected": "filter",
+      "predicted": "filter",
+      "confidence": 0.45760568968717275,
+      "correct": true
+    },
+    {
+      "id": "sql-test-filter-2-0",
+      "text": "restrict the customer roster to Vienna",
+      "expected": "filter",
+      "predicted": "select",
+      "confidence": 0.48500630972570113,
+      "correct": false
+    },
+    {
+      "id": "sql-test-filter-2-1",
+      "text": "For this task, restrict the customer roster to Vienna",
+      "expected": "filter",
+      "predicted": "select",
+      "confidence": 0.42261591718927827,
+      "correct": false
+    },
+    {
+      "id": "sql-test-filter-3-0",
+      "text": "I need customers based in Prague",
+      "expected": "filter",
+      "predicted": "filter",
+      "confidence": 0.6558298086786178,
+      "correct": true
+    },
+    {
+      "id": "sql-test-filter-3-1",
+      "text": "For this task, I need customers based in Prague",
+      "expected": "filter",
+      "predicted": "filter",
+      "confidence": 0.5981412870992732,
+      "correct": true
+    },
+    {
+      "id": "sql-test-filter-4-0",
+      "text": "show customer rows matching Zurich",
+      "expected": "filter",
+      "predicted": "filter",
+      "confidence": 0.36253833598388074,
+      "correct": true
+    },
+    {
+      "id": "sql-test-filter-4-1",
+      "text": "For this task, show customer rows matching Zurich",
+      "expected": "filter",
+      "predicted": "filter",
+      "confidence": 0.37156366118460565,
+      "correct": true
+    },
+    {
+      "id": "sql-test-filter-5-0",
+      "text": "find everyone in customers from Helsinki",
+      "expected": "filter",
+      "predicted": "filter",
+      "confidence": 0.5749645426006191,
+      "correct": true
+    },
+    {
+      "id": "sql-test-filter-5-1",
+      "text": "For this task, find everyone in customers from Helsinki",
+      "expected": "filter",
+      "predicted": "filter",
+      "confidence": 0.6052306390232088,
+      "correct": true
+    },
+    {
+      "id": "sql-test-filter-6-0",
+      "text": "pull customers located in Athens",
+      "expected": "filter",
+      "predicted": "filter",
+      "confidence": 0.6558298086786178,
+      "correct": true
+    },
+    {
+      "id": "sql-test-filter-6-1",
+      "text": "For this task, pull customers located in Athens",
+      "expected": "filter",
+      "predicted": "filter",
+      "confidence": 0.5981412870992732,
+      "correct": true
+    },
+    {
+      "id": "sql-test-filter-7-0",
+      "text": "display customers with a city of Warsaw",
+      "expected": "filter",
+      "predicted": "filter",
+      "confidence": 0.40624607535435264,
+      "correct": true
+    },
+    {
+      "id": "sql-test-filter-7-1",
+      "text": "For this task, display customers with a city of Warsaw",
+      "expected": "filter",
+      "predicted": "filter",
+      "confidence": 0.4033755585823931,
+      "correct": true
+    },
+    {
+      "id": "sql-test-count-0-0",
+      "text": "how many people are recorded as customers",
+      "expected": "count",
+      "predicted": "count",
+      "confidence": 0.6912915665540225,
+      "correct": true
+    },
+    {
+      "id": "sql-test-count-0-1",
+      "text": "For this task, how many people are recorded as customers",
+      "expected": "count",
+      "predicted": "count",
+      "confidence": 0.7031602494638532,
+      "correct": true
+    },
+    {
+      "id": "sql-test-count-1-0",
+      "text": "what number of customer profiles do we have",
+      "expected": "count",
+      "predicted": "count",
+      "confidence": 0.6484753213133797,
+      "correct": true
+    },
+    {
+      "id": "sql-test-count-1-1",
+      "text": "For this task, what number of customer profiles do we have",
+      "expected": "count",
+      "predicted": "count",
+      "confidence": 0.6567516132387556,
+      "correct": true
+    },
+    {
+      "id": "sql-test-count-2-0",
+      "text": "count every row in the customer directory",
+      "expected": "count",
+      "predicted": "count",
+      "confidence": 0.5219834923211581,
+      "correct": true
+    },
+    {
+      "id": "sql-test-count-2-1",
+      "text": "For this task, count every row in the customer directory",
+      "expected": "count",
+      "predicted": "count",
+      "confidence": 0.5013794909396553,
+      "correct": true
+    },
+    {
+      "id": "sql-test-count-3-0",
+      "text": "I need the total customer population",
+      "expected": "count",
+      "predicted": "count",
+      "confidence": 0.5554661337778918,
+      "correct": true
+    },
+    {
+      "id": "sql-test-count-3-1",
+      "text": "For this task, I need the total customer population",
+      "expected": "count",
+      "predicted": "count",
+      "confidence": 0.4967088889605386,
+      "correct": true
+    },
+    {
+      "id": "sql-test-count-4-0",
+      "text": "give me a tally of customer records",
+      "expected": "count",
+      "predicted": "select",
+      "confidence": 0.3772067872377778,
+      "correct": false
+    },
+    {
+      "id": "sql-test-count-4-1",
+      "text": "For this task, give me a tally of customer records",
+      "expected": "count",
+      "predicted": "select",
+      "confidence": 0.34019677986711827,
+      "correct": false
+    },
+    {
+      "id": "sql-test-count-5-0",
+      "text": "return a count for the whole customers table",
+      "expected": "count",
+      "predicted": "count",
+      "confidence": 0.6457121595396257,
+      "correct": true
+    },
+    {
+      "id": "sql-test-count-5-1",
+      "text": "For this task, return a count for the whole customers table",
+      "expected": "count",
+      "predicted": "count",
+      "confidence": 0.5914473726002206,
+      "correct": true
+    },
+    {
+      "id": "sql-test-count-6-0",
+      "text": "how many entries does customers contain",
+      "expected": "count",
+      "predicted": "count",
+      "confidence": 0.776021736475335,
+      "correct": true
+    },
+    {
+      "id": "sql-test-count-6-1",
+      "text": "For this task, how many entries does customers contain",
+      "expected": "count",
+      "predicted": "count",
+      "confidence": 0.7805805013165678,
+      "correct": true
+    },
+    {
+      "id": "sql-test-count-7-0",
+      "text": "report the number of saved customers",
+      "expected": "count",
+      "predicted": "count",
+      "confidence": 0.8773550034085827,
+      "correct": true
+    },
+    {
+      "id": "sql-test-count-7-1",
+      "text": "For this task, report the number of saved customers",
+      "expected": "count",
+      "predicted": "count",
+      "confidence": 0.8899420267136723,
+      "correct": true
+    },
+    {
+      "id": "sql-test-group-0-0",
+      "text": "for each city add up the order amounts",
+      "expected": "group",
+      "predicted": "group",
+      "confidence": 0.7622360756324299,
+      "correct": true
+    },
+    {
+      "id": "sql-test-group-0-1",
+      "text": "For this task, for each city add up the order amounts",
+      "expected": "group",
+      "predicted": "group",
+      "confidence": 0.7793120262340623,
+      "correct": true
+    },
+    {
+      "id": "sql-test-group-1-0",
+      "text": "I need a revenue breakdown across cities",
+      "expected": "group",
+      "predicted": "group",
+      "confidence": 0.2664627966943382,
+      "correct": true
+    },
+    {
+      "id": "sql-test-group-1-1",
+      "text": "For this task, I need a revenue breakdown across cities",
+      "expected": "group",
+      "predicted": "group",
+      "confidence": 0.41458033562881763,
+      "correct": true
+    },
+    {
+      "id": "sql-test-group-2-0",
+      "text": "show a sum of sales grouped by customer location",
+      "expected": "group",
+      "predicted": "group",
+      "confidence": 0.7199182372077152,
+      "correct": true
+    },
+    {
+      "id": "sql-test-group-2-1",
+      "text": "For this task, show a sum of sales grouped by customer location",
+      "expected": "group",
+      "predicted": "group",
+      "confidence": 0.7799274974373711,
+      "correct": true
+    },
+    {
+      "id": "sql-test-group-3-0",
+      "text": "total the orders separately for each city",
+      "expected": "group",
+      "predicted": "group",
+      "confidence": 0.7181825014364301,
+      "correct": true
+    },
+    {
+      "id": "sql-test-group-3-1",
+      "text": "For this task, total the orders separately for each city",
+      "expected": "group",
+      "predicted": "group",
+      "confidence": 0.7410131375045327,
+      "correct": true
+    },
+    {
+      "id": "sql-test-group-4-0",
+      "text": "roll up purchase amounts by city",
+      "expected": "group",
+      "predicted": "group",
+      "confidence": 0.73313621046479,
+      "correct": true
+    },
+    {
+      "id": "sql-test-group-4-1",
+      "text": "For this task, roll up purchase amounts by city",
+      "expected": "group",
+      "predicted": "group",
+      "confidence": 0.7787980027276499,
+      "correct": true
+    },
+    {
+      "id": "sql-test-group-5-0",
+      "text": "compute the revenue aggregate per city",
+      "expected": "group",
+      "predicted": "group",
+      "confidence": 0.6735502915628158,
+      "correct": true
+    },
+    {
+      "id": "sql-test-group-5-1",
+      "text": "For this task, compute the revenue aggregate per city",
+      "expected": "group",
+      "predicted": "group",
+      "confidence": 0.7469967910482146,
+      "correct": true
+    },
+    {
+      "id": "sql-test-group-6-0",
+      "text": "report spending totals for every customer city",
+      "expected": "group",
+      "predicted": "group",
+      "confidence": 0.6587687954973066,
+      "correct": true
+    },
+    {
+      "id": "sql-test-group-6-1",
+      "text": "For this task, report spending totals for every customer city",
+      "expected": "group",
+      "predicted": "group",
+      "confidence": 0.6867543568807718,
+      "correct": true
+    },
+    {
+      "id": "sql-test-group-7-0",
+      "text": "summarize total order value by customer city",
+      "expected": "group",
+      "predicted": "group",
+      "confidence": 0.5825321730077742,
+      "correct": true
+    },
+    {
+      "id": "sql-test-group-7-1",
+      "text": "For this task, summarize total order value by customer city",
+      "expected": "group",
+      "predicted": "group",
+      "confidence": 0.6431624490406757,
+      "correct": true
+    },
+    {
+      "id": "sql-test-join-0-0",
+      "text": "who placed each order",
+      "expected": "join",
+      "predicted": "group",
+      "confidence": 0.27263603357547134,
+      "correct": false
+    },
+    {
+      "id": "sql-test-join-0-1",
+      "text": "For this task, who placed each order",
+      "expected": "join",
+      "predicted": "group",
+      "confidence": 0.4205315870849293,
+      "correct": false
+    },
+    {
+      "id": "sql-test-join-1-0",
+      "text": "show a customer's name next to each purchase",
+      "expected": "join",
+      "predicted": "insert",
+      "confidence": 0.32119855095485145,
+      "correct": false
+    },
+    {
+      "id": "sql-test-join-1-1",
+      "text": "For this task, show a customer's name next to each purchase",
+      "expected": "join",
+      "predicted": "insert",
+      "confidence": 0.2641147965170721,
+      "correct": false
+    },
+    {
+      "id": "sql-test-join-2-0",
+      "text": "pair the order history with customer profiles",
+      "expected": "join",
+      "predicted": "join",
+      "confidence": 0.5979593867284719,
+      "correct": true
+    },
+    {
+      "id": "sql-test-join-2-1",
+      "text": "For this task, pair the order history with customer profiles",
+      "expected": "join",
+      "predicted": "join",
+      "confidence": 0.5999566685695535,
+      "correct": true
+    },
+    {
+      "id": "sql-test-join-3-0",
+      "text": "get order totals together with buyer names",
+      "expected": "join",
+      "predicted": "join",
+      "confidence": 0.4090629786238097,
+      "correct": true
+    },
+    {
+      "id": "sql-test-join-3-1",
+      "text": "For this task, get order totals together with buyer names",
+      "expected": "join",
+      "predicted": "group",
+      "confidence": 0.3914131419011325,
+      "correct": false
+    },
+    {
+      "id": "sql-test-join-4-0",
+      "text": "bring customer and purchase records together",
+      "expected": "join",
+      "predicted": "join",
+      "confidence": 0.5660600411873038,
+      "correct": true
+    },
+    {
+      "id": "sql-test-join-4-1",
+      "text": "For this task, bring customer and purchase records together",
+      "expected": "join",
+      "predicted": "join",
+      "confidence": 0.4985433934308483,
+      "correct": true
+    },
+    {
+      "id": "sql-test-join-5-0",
+      "text": "attach customers to their order rows",
+      "expected": "join",
+      "predicted": "join",
+      "confidence": 0.5528929564116986,
+      "correct": true
+    },
+    {
+      "id": "sql-test-join-5-1",
+      "text": "For this task, attach customers to their order rows",
+      "expected": "join",
+      "predicted": "join",
+      "confidence": 0.5463020893891275,
+      "correct": true
+    },
+    {
+      "id": "sql-test-join-6-0",
+      "text": "look up each order's customer name",
+      "expected": "join",
+      "predicted": "group",
+      "confidence": 0.27744845766517007,
+      "correct": false
+    },
+    {
+      "id": "sql-test-join-6-1",
+      "text": "For this task, look up each order's customer name",
+      "expected": "join",
+      "predicted": "group",
+      "confidence": 0.41731880721055575,
+      "correct": false
+    },
+    {
+      "id": "sql-test-join-7-0",
+      "text": "give order details and the corresponding customers",
+      "expected": "join",
+      "predicted": "join",
+      "confidence": 0.3166249625763027,
+      "correct": true
+    },
+    {
+      "id": "sql-test-join-7-1",
+      "text": "For this task, give order details and the corresponding customers",
+      "expected": "join",
+      "predicted": "join",
+      "confidence": 0.2719405686709306,
+      "correct": true
+    },
+    {
+      "id": "sql-test-insert-0-0",
+      "text": "enroll a new customer named Morgan",
+      "expected": "insert",
+      "predicted": "insert",
+      "confidence": 0.654482129156913,
+      "correct": true
+    },
+    {
+      "id": "sql-test-insert-0-1",
+      "text": "For this task, enroll a new customer named Morgan",
+      "expected": "insert",
+      "predicted": "insert",
+      "confidence": 0.6621856891475926,
+      "correct": true
+    },
+    {
+      "id": "sql-test-insert-1-0",
+      "text": "put a fresh customer into customers",
+      "expected": "insert",
+      "predicted": "insert",
+      "confidence": 0.3303971966491472,
+      "correct": true
+    },
+    {
+      "id": "sql-test-insert-1-1",
+      "text": "For this task, put a fresh customer into customers",
+      "expected": "insert",
+      "predicted": "insert",
+      "confidence": 0.24656474383833188,
+      "correct": true
+    },
+    {
+      "id": "sql-test-insert-2-0",
+      "text": "I want to add Casey as a customer",
+      "expected": "insert",
+      "predicted": "insert",
+      "confidence": 0.4793790341664611,
+      "correct": true
+    },
+    {
+      "id": "sql-test-insert-2-1",
+      "text": "For this task, I want to add Casey as a customer",
+      "expected": "insert",
+      "predicted": "insert",
+      "confidence": 0.4295710537914728,
+      "correct": true
+    },
+    {
+      "id": "sql-test-insert-3-0",
+      "text": "write a new customer record with name and city",
+      "expected": "insert",
+      "predicted": "insert",
+      "confidence": 0.8081729651788633,
+      "correct": true
+    },
+    {
+      "id": "sql-test-insert-3-1",
+      "text": "For this task, write a new customer record with name and city",
+      "expected": "insert",
+      "predicted": "insert",
+      "confidence": 0.8142176624711328,
+      "correct": true
+    },
+    {
+      "id": "sql-test-insert-4-0",
+      "text": "store a new customer profile",
+      "expected": "insert",
+      "predicted": "insert",
+      "confidence": 0.7259980980485696,
+      "correct": true
+    },
+    {
+      "id": "sql-test-insert-4-1",
+      "text": "For this task, store a new customer profile",
+      "expected": "insert",
+      "predicted": "insert",
+      "confidence": 0.7251651276109943,
+      "correct": true
+    },
+    {
+      "id": "sql-test-insert-5-0",
+      "text": "append another person to customers",
+      "expected": "insert",
+      "predicted": "insert",
+      "confidence": 0.4791651023744147,
+      "correct": true
+    },
+    {
+      "id": "sql-test-insert-5-1",
+      "text": "For this task, append another person to customers",
+      "expected": "insert",
+      "predicted": "insert",
+      "confidence": 0.437382179827459,
+      "correct": true
+    },
+    {
+      "id": "sql-test-insert-6-0",
+      "text": "create an entry for a new buyer",
+      "expected": "insert",
+      "predicted": "insert",
+      "confidence": 0.7038036390304981,
+      "correct": true
+    },
+    {
+      "id": "sql-test-insert-6-1",
+      "text": "For this task, create an entry for a new buyer",
+      "expected": "insert",
+      "predicted": "insert",
+      "confidence": 0.6724508496720577,
+      "correct": true
+    },
+    {
+      "id": "sql-test-insert-7-0",
+      "text": "insert one customer into the customer table",
+      "expected": "insert",
+      "predicted": "delete",
+      "confidence": 0.26514445355049243,
+      "correct": false
+    },
+    {
+      "id": "sql-test-insert-7-1",
+      "text": "For this task, insert one customer into the customer table",
+      "expected": "insert",
+      "predicted": "delete",
+      "confidence": 0.2387684474669637,
+      "correct": false
+    },
+    {
+      "id": "sql-test-update-0-0",
+      "text": "move customer 42 to a different city",
+      "expected": "update",
+      "predicted": "update",
+      "confidence": 0.48503345791411706,
+      "correct": true
+    },
+    {
+      "id": "sql-test-update-0-1",
+      "text": "For this task, move customer 42 to a different city",
+      "expected": "update",
+      "predicted": "update",
+      "confidence": 0.4961364068627916,
+      "correct": true
+    },
+    {
+      "id": "sql-test-update-1-0",
+      "text": "make the customer's city read Lisbon",
+      "expected": "update",
+      "predicted": "update",
+      "confidence": 0.3846912922554151,
+      "correct": true
+    },
+    {
+      "id": "sql-test-update-1-1",
+      "text": "For this task, make the customer's city read Lisbon",
+      "expected": "update",
+      "predicted": "update",
+      "confidence": 0.42660662269669203,
+      "correct": true
+    },
+    {
+      "id": "sql-test-update-2-0",
+      "text": "change where an existing customer lives",
+      "expected": "update",
+      "predicted": "update",
+      "confidence": 0.6748657120627521,
+      "correct": true
+    },
+    {
+      "id": "sql-test-update-2-1",
+      "text": "For this task, change where an existing customer lives",
+      "expected": "update",
+      "predicted": "update",
+      "confidence": 0.7183776666410138,
+      "correct": true
+    },
+    {
+      "id": "sql-test-update-3-0",
+      "text": "overwrite the city on one customer profile",
+      "expected": "update",
+      "predicted": "update",
+      "confidence": 0.3933985881446523,
+      "correct": true
+    },
+    {
+      "id": "sql-test-update-3-1",
+      "text": "For this task, overwrite the city on one customer profile",
+      "expected": "update",
+      "predicted": "update",
+      "confidence": 0.44260529375740665,
+      "correct": true
+    },
+    {
+      "id": "sql-test-update-4-0",
+      "text": "fix the location of the selected customer",
+      "expected": "update",
+      "predicted": "delete",
+      "confidence": 0.4757866009657769,
+      "correct": false
+    },
+    {
+      "id": "sql-test-update-4-1",
+      "text": "For this task, fix the location of the selected customer",
+      "expected": "update",
+      "predicted": "delete",
+      "confidence": 0.44112986303887225,
+      "correct": false
+    },
+    {
+      "id": "sql-test-update-5-0",
+      "text": "set customer 7's city to Oslo",
+      "expected": "update",
+      "predicted": "update",
+      "confidence": 0.7574399363373561,
+      "correct": true
+    },
+    {
+      "id": "sql-test-update-5-1",
+      "text": "For this task, set customer 7's city to Oslo",
+      "expected": "update",
+      "predicted": "update",
+      "confidence": 0.7526005543892518,
+      "correct": true
+    },
+    {
+      "id": "sql-test-update-6-0",
+      "text": "amend an existing customer's city",
+      "expected": "update",
+      "predicted": "update",
+      "confidence": 0.8053427610361171,
+      "correct": true
+    },
+    {
+      "id": "sql-test-update-6-1",
+      "text": "For this task, amend an existing customer's city",
+      "expected": "update",
+      "predicted": "update",
+      "confidence": 0.8152983945265793,
+      "correct": true
+    },
+    {
+      "id": "sql-test-update-7-0",
+      "text": "edit a saved customer's city field",
+      "expected": "update",
+      "predicted": "update",
+      "confidence": 0.7848289514826281,
+      "correct": true
+    },
+    {
+      "id": "sql-test-update-7-1",
+      "text": "For this task, edit a saved customer's city field",
+      "expected": "update",
+      "predicted": "update",
+      "confidence": 0.7993709995773881,
+      "correct": true
+    },
+    {
+      "id": "sql-test-delete-0-0",
+      "text": "remove customer 42 from our records",
+      "expected": "delete",
+      "predicted": "delete",
+      "confidence": 0.6495972942519718,
+      "correct": true
+    },
+    {
+      "id": "sql-test-delete-0-1",
+      "text": "For this task, remove customer 42 from our records",
+      "expected": "delete",
+      "predicted": "delete",
+      "confidence": 0.630477551005739,
+      "correct": true
+    },
+    {
+      "id": "sql-test-delete-1-0",
+      "text": "erase the row belonging to customer 7",
+      "expected": "delete",
+      "predicted": "delete",
+      "confidence": 0.5712848966370364,
+      "correct": true
+    },
+    {
+      "id": "sql-test-delete-1-1",
+      "text": "For this task, erase the row belonging to customer 7",
+      "expected": "delete",
+      "predicted": "delete",
+      "confidence": 0.5327753732808604,
+      "correct": true
+    },
+    {
+      "id": "sql-test-delete-2-0",
+      "text": "I want to delete a saved customer",
+      "expected": "delete",
+      "predicted": "delete",
+      "confidence": 0.5915871747902939,
+      "correct": true
+    },
+    {
+      "id": "sql-test-delete-2-1",
+      "text": "For this task, I want to delete a saved customer",
+      "expected": "delete",
+      "predicted": "delete",
+      "confidence": 0.5743614939800519,
+      "correct": true
+    },
+    {
+      "id": "sql-test-delete-3-0",
+      "text": "take the chosen customer off the roster",
+      "expected": "delete",
+      "predicted": "delete",
+      "confidence": 0.4874276781858923,
+      "correct": true
+    },
+    {
+      "id": "sql-test-delete-3-1",
+      "text": "For this task, take the chosen customer off the roster",
+      "expected": "delete",
+      "predicted": "delete",
+      "confidence": 0.48765613061750623,
+      "correct": true
+    },
+    {
+      "id": "sql-test-delete-4-0",
+      "text": "purge one customer from customers",
+      "expected": "delete",
+      "predicted": "delete",
+      "confidence": 0.5493400839914002,
+      "correct": true
+    },
+    {
+      "id": "sql-test-delete-4-1",
+      "text": "For this task, purge one customer from customers",
+      "expected": "delete",
+      "predicted": "delete",
+      "confidence": 0.5377619213358631,
+      "correct": true
+    },
+    {
+      "id": "sql-test-delete-5-0",
+      "text": "discard a customer record by its id",
+      "expected": "delete",
+      "predicted": "delete",
+      "confidence": 0.5158645673051685,
+      "correct": true
+    },
+    {
+      "id": "sql-test-delete-5-1",
+      "text": "For this task, discard a customer record by its id",
+      "expected": "delete",
+      "predicted": "delete",
+      "confidence": 0.4407876866604578,
+      "correct": true
+    },
+    {
+      "id": "sql-test-delete-6-0",
+      "text": "drop the selected customer profile",
+      "expected": "delete",
+      "predicted": "delete",
+      "confidence": 0.7082269577728036,
+      "correct": true
+    },
+    {
+      "id": "sql-test-delete-6-1",
+      "text": "For this task, drop the selected customer profile",
+      "expected": "delete",
+      "predicted": "delete",
+      "confidence": 0.7188290185776881,
+      "correct": true
+    },
+    {
+      "id": "sql-test-delete-7-0",
+      "text": "delete a single customer entry",
+      "expected": "delete",
+      "predicted": "delete",
+      "confidence": 0.5429734552483285,
+      "correct": true
+    },
+    {
+      "id": "sql-test-delete-7-1",
+      "text": "For this task, delete a single customer entry",
+      "expected": "delete",
+      "predicted": "delete",
+      "confidence": 0.541580971859522,
+      "correct": true
+    }
+  ],
+  "split_policy": "Exact normalized texts are unique. Manually authored stems are split before vocabulary fitting; task concepts overlap. No test/dev fitting or tuning.",
+  "limitations": [
+    "Synthetic English paraphrases for eight fixed intents and a two-table schema.",
+    "Intent accuracy does not measure executable SQL correctness or real-world robustness.",
+    "No claim of frontier language-model fine-tuning or transfer advantage over scratch."
+  ]
+}

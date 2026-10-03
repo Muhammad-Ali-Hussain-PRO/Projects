@@ -1,0 +1,67 @@
+[
+  {
+    "id": "education",
+    "name": "Education and academic record",
+    "pages": [
+      {
+        "page": 1,
+        "text": "Muhammad Ali Hussain studies B.S. Mathematics, Applied Mathematics concentration, at University of Illinois Urbana-Champaign. James Scholar. Expected graduation Spring 2028. Fall 2026 GPA: In progress. Harper College coursework 2023\u20132026; GPA 3.63/4.00, President\u2019s List two semesters and Dean\u2019s List two semesters."
+      }
+    ]
+  },
+  {
+    "id": "contact",
+    "name": "Contact and career interests",
+    "text": "Muhammad Ali Hussain, Savoy Illinois. Seeking software engineering, applied AI, backend and AI tooling internships. Email muhammadalifarhanhussain@gmail.com. GitHub https://github.com/Muhammad-Ali-Hussain-PRO. LinkedIn https://www.linkedin.com/in/muhammad-ali-hussain-348425421. Projects are AI-assisted engineering prototypes, with implementation evidence and explicit limits."
+  },
+  {
+    "id": "rag",
+    "name": "Atlas RAG",
+    "text": "Page-aware PDF ingestion, BM25/vector fusion, portable indexes and citation validation. Working local retrieval and extractive answers; learned reranking and generated answers require configuration. Python \u00b7 pypdf \u00b7 NumPy. PDF pages and bounded chunks; BM25 plus cosine fusion; Optional cross-encoder adapter; Retrieval and citation evaluation"
+  },
+  {
+    "id": "search",
+    "name": "Scout Search",
+    "text": "Bounded search planning, live search API adapter, source deduplication and cited synthesis. Live web search requires a search-provider key; fixture mode is labeled cached evidence. Python \u00b7 FastAPI \u00b7 HTTPX. Multi-step plan; Source URL validation; Inline source references; Stage event stream"
+  },
+  {
+    "id": "voice",
+    "name": "Pulse Voice",
+    "text": "Ordered voice sessions with VAD, interruptions, STT/reasoning/TTS adapters and stale-turn suppression. Browser audio tools are usable locally; provider conversation needs an authenticated backend and API key. Python \u00b7 WebSockets \u00b7 browser audio. Microphone and silence detection; Interruptible playback; Bounded audio and session state; Mocked race-condition tests"
+  },
+  {
+    "id": "multimodal",
+    "name": "Prism Multimodal",
+    "text": "Inspectable evidence manifests for text, images, audio and code, with optional grounded model interpretation. Local file and code inspection works; image/audio reasoning requires a configured provider. Python \u00b7 Pillow \u00b7 React. SHA-256 evidence identity; Image and audio metadata; Python syntax inspection; Cross-modal evidence validation"
+  },
+  {
+    "id": "review",
+    "name": "Review Swarm",
+    "text": "Separate reviewer, security and test roles propose bounded revisions and retain an audit trail. Static analysis works locally; model proposals need configuration. Submitted code is never executed or automatically merged. Python AST \u00b7 role orchestration. AST correctness checks; Security findings; Test-writing role; Syntax-gated revision proposals"
+  },
+  {
+    "id": "model",
+    "name": "DomainLab",
+    "text": "A genuinely trained SQL intent adaptation baseline with frozen vocabulary and held-out evaluation. Classifier is trained: 107/128 held-out cases correct. Optional Hugging Face causal-LM training entrypoint is unrun. Python \u00b7 scikit-learn \u00b7 NumPy. Leakage-free grouped splits; Base / scratch / adapted comparison; Saved model and predictions; Optional causal-LM training script"
+  },
+  {
+    "id": "safety",
+    "name": "Guardrail Lab",
+    "text": "Deterministic injection/PII probes and a configured-model evaluation adapter with per-case scoring. Local heuristic testing is available; scores do not certify model safety and live model probes need a key. Python \u00b7 synthetic probes. Synthetic injection corpus; PII detection and redaction; Per-case expectations; False-positive/false-negative reporting"
+  },
+  {
+    "id": "analyst",
+    "name": "QueryLens",
+    "text": "CSV schema inference, natural-language aggregate planning, restricted SELECT execution and chart data. Working local grammar plus SQLite backend; open-ended language-to-SQL needs a model. No arbitrary database connection is advertised. Python \u00b7 SQLite \u00b7 CSV \u00b7 React. CSV upload and schema preview; SELECT-only SQLite authorizer; Execution deadline and result cap; Charts and query plans"
+  },
+  {
+    "id": "mcp",
+    "name": "ContextBridge MCP",
+    "text": "Real stdio MCP server and client exposing allowlisted portfolio context and read-only sample analytics. Real protocol round-trip tested locally; the public browser preview explains tools and connects to your backend. Python \u00b7 MCP SDK 2.3. Negotiated MCP initialization; Tool and resource discovery; Allowlisted context IDs; Restricted analytics tool"
+  },
+  {
+    "id": "chat",
+    "name": "Portfolio Copilot",
+    "text": "A resume-and-portfolio-only retrieval assistant with source references and opt-in backend feedback. Working extractive answers; generated responses need configuration. No external-user count claimed. Python \u00b7 retrieval \u00b7 React. Versioned candidate facts; Project source citations; Unknown-answer handling; Durable opt-in feedback"
+  }
+]
