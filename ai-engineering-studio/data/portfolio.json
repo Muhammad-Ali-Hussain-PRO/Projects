@@ -5,63 +5,113 @@
     "pages": [
       {
         "page": 1,
-        "text": "Muhammad Ali Hussain studies B.S. Mathematics, Applied Mathematics concentration, at University of Illinois Urbana-Champaign. James Scholar. Expected graduation Spring 2028. Fall 2026 GPA: In progress. Harper College coursework 2023\u20132026; GPA 3.63/4.00, President\u2019s List two semesters and Dean\u2019s List two semesters."
+        "text": "Muhammad Ali Hussain studies B.S. Mathematics, Applied Mathematics concentration, at University of Illinois Urbana-Champaign. James Scholar. Expected graduation 2027 or 2028. Fall 2026 GPA: In progress. Harper College coursework 2023–2026; GPA 3.63/4.00, President’s List two semesters and Dean’s List two semesters."
       }
     ]
   },
   {
     "id": "contact",
     "name": "Contact and career interests",
-    "text": "Muhammad Ali Hussain, Savoy Illinois. Seeking software engineering, applied AI, backend and AI tooling internships. Email muhammadalifarhanhussain@gmail.com. GitHub https://github.com/Muhammad-Ali-Hussain-PRO. LinkedIn https://www.linkedin.com/in/muhammad-ali-hussain-348425421. Projects are AI-assisted engineering prototypes, with implementation evidence and explicit limits."
+    "text": "Muhammad Ali Hussain, Savoy Illinois. Seeking software engineering, applied AI, backend and AI tooling internships or jobs. Email muhammadalifarhanhussain@gmail.com. GitHub https://github.com/Muhammad-Ali-Hussain-PRO. LinkedIn https://www.linkedin.com/in/muhammad-ali-hussain-348425421. Projects are AI-assisted engineering prototypes, with implementation evidence and explicit limits."
   },
   {
     "id": "rag",
     "name": "Atlas RAG",
-    "text": "Page-aware PDF ingestion, BM25/vector fusion, portable indexes and citation validation. Working local retrieval and extractive answers; learned reranking and generated answers require configuration. Python \u00b7 pypdf \u00b7 NumPy. PDF pages and bounded chunks; BM25 plus cosine fusion; Optional cross-encoder adapter; Retrieval and citation evaluation"
+    "text": "Page-aware PDF ingestion, BM25/vector fusion, portable indexes and citation validation. Working local retrieval and extractive answers; learned reranking and generated answers require configuration. Python · pypdf · NumPy. PDF pages and bounded chunks; BM25 plus cosine fusion; Optional cross-encoder adapter; Retrieval and citation evaluation"
   },
   {
     "id": "search",
     "name": "Scout Search",
-    "text": "Bounded search planning, live search API adapter, source deduplication and cited synthesis. Live web search requires a search-provider key; fixture mode is labeled cached evidence. Python \u00b7 FastAPI \u00b7 HTTPX. Multi-step plan; Source URL validation; Inline source references; Stage event stream"
+    "text": "Bounded search planning, live search API adapter, source deduplication and cited synthesis. Live web search requires a search-provider key; fixture mode is labeled cached evidence. Python · FastAPI · HTTPX. Multi-step plan; Source URL validation; Inline source references; Stage event stream"
   },
   {
     "id": "voice",
     "name": "Pulse Voice",
-    "text": "Ordered voice sessions with VAD, interruptions, STT/reasoning/TTS adapters and stale-turn suppression. Browser audio tools are usable locally; provider conversation needs an authenticated backend and API key. Python \u00b7 WebSockets \u00b7 browser audio. Microphone and silence detection; Interruptible playback; Bounded audio and session state; Mocked race-condition tests"
+    "text": "Ordered voice sessions with VAD, interruptions, STT/reasoning/TTS adapters and stale-turn suppression. Browser audio tools are usable locally; provider conversation needs an authenticated backend and API key. Python · WebSockets · browser audio. Microphone and silence detection; Interruptible playback; Bounded audio and session state; Mocked race-condition tests"
   },
   {
     "id": "multimodal",
     "name": "Prism Multimodal",
-    "text": "Inspectable evidence manifests for text, images, audio and code, with optional grounded model interpretation. Local file and code inspection works; image/audio reasoning requires a configured provider. Python \u00b7 Pillow \u00b7 React. SHA-256 evidence identity; Image and audio metadata; Python syntax inspection; Cross-modal evidence validation"
+    "text": "Inspectable evidence manifests for text, images, audio and code, with optional grounded model interpretation. Local file and code inspection works; image/audio reasoning requires a configured provider. Python · Pillow · React. SHA-256 evidence identity; Image and audio metadata; Python syntax inspection; Cross-modal evidence validation"
   },
   {
     "id": "review",
     "name": "Review Swarm",
-    "text": "Separate reviewer, security and test roles propose bounded revisions and retain an audit trail. Static analysis works locally; model proposals need configuration. Submitted code is never executed or automatically merged. Python AST \u00b7 role orchestration. AST correctness checks; Security findings; Test-writing role; Syntax-gated revision proposals"
+    "text": "Separate reviewer, security and test roles propose bounded revisions and retain an audit trail. Static analysis works locally; model proposals need configuration. Submitted code is never executed or automatically merged. Python AST · role orchestration. AST correctness checks; Security findings; Test-writing role; Syntax-gated revision proposals"
   },
   {
     "id": "model",
     "name": "DomainLab",
-    "text": "A genuinely trained SQL intent adaptation baseline with frozen vocabulary and held-out evaluation. Classifier is trained: 107/128 held-out cases correct. Optional Hugging Face causal-LM training entrypoint is unrun. Python \u00b7 scikit-learn \u00b7 NumPy. Leakage-free grouped splits; Base / scratch / adapted comparison; Saved model and predictions; Optional causal-LM training script"
+    "text": "A genuinely trained SQL intent adaptation baseline with frozen vocabulary and held-out evaluation. Classifier is trained: 107/128 held-out cases correct. Optional Hugging Face causal-LM training entrypoint is unrun. Python · scikit-learn · NumPy. Leakage-free grouped splits; Base / scratch / adapted comparison; Saved model and predictions; Optional causal-LM training script"
   },
   {
     "id": "safety",
     "name": "Guardrail Lab",
-    "text": "Deterministic injection/PII probes and a configured-model evaluation adapter with per-case scoring. Local heuristic testing is available; scores do not certify model safety and live model probes need a key. Python \u00b7 synthetic probes. Synthetic injection corpus; PII detection and redaction; Per-case expectations; False-positive/false-negative reporting"
+    "text": "Deterministic injection/PII probes and a configured-model evaluation adapter with per-case scoring. Local heuristic testing is available; scores do not certify model safety and live model probes need a key. Python · synthetic probes. Synthetic injection corpus; PII detection and redaction; Per-case expectations; False-positive/false-negative reporting"
   },
   {
     "id": "analyst",
     "name": "QueryLens",
-    "text": "CSV schema inference, natural-language aggregate planning, restricted SELECT execution and chart data. Working local grammar plus SQLite backend; open-ended language-to-SQL needs a model. No arbitrary database connection is advertised. Python \u00b7 SQLite \u00b7 CSV \u00b7 React. CSV upload and schema preview; SELECT-only SQLite authorizer; Execution deadline and result cap; Charts and query plans"
+    "text": "CSV schema inference, natural-language aggregate planning, restricted SELECT execution and chart data. Working local grammar plus SQLite backend; open-ended language-to-SQL needs a model. No arbitrary database connection is advertised. Python · SQLite · CSV · React. CSV upload and schema preview; SELECT-only SQLite authorizer; Execution deadline and result cap; Charts and query plans"
   },
   {
     "id": "mcp",
     "name": "ContextBridge MCP",
-    "text": "Real stdio MCP server and client exposing allowlisted portfolio context and read-only sample analytics. Real protocol round-trip tested locally; the public browser preview explains tools and connects to your backend. Python \u00b7 MCP SDK 2.3. Negotiated MCP initialization; Tool and resource discovery; Allowlisted context IDs; Restricted analytics tool"
+    "text": "Real stdio MCP server and client exposing allowlisted portfolio context and read-only sample analytics. Real protocol round-trip tested locally; the public browser preview explains tools and connects to your backend. Python · MCP SDK 2.3. Negotiated MCP initialization; Tool and resource discovery; Allowlisted context IDs; Restricted analytics tool"
   },
   {
     "id": "chat",
     "name": "Portfolio Copilot",
-    "text": "A resume-and-portfolio-only retrieval assistant with source references and opt-in backend feedback. Working extractive answers; generated responses need configuration. No external-user count claimed. Python \u00b7 retrieval \u00b7 React. Versioned candidate facts; Project source citations; Unknown-answer handling; Durable opt-in feedback"
+    "text": "A resume-and-portfolio-only retrieval assistant with source references and opt-in backend feedback. Working extractive answers; generated responses need configuration. No external-user count claimed. Python · retrieval · React. Versioned candidate facts; Project source citations; Unknown-answer handling; Durable opt-in feedback"
+  },
+  {
+    "id": "veil",
+    "name": "Veil Council",
+    "text": "C++17 hidden-role simulation with independent heuristic agents, beliefs, coalition offers, voting and validated private streaming external-agent action protocol. No connected language-model provider is claimed. Public JavaScript interactive preview and recorded native C++ replay at https://muhammad-ali-hussain-engineering.muhammadalifarhanhus.chatgpt.site/native-lab/?project=veil"
+  },
+  {
+    "id": "aether",
+    "name": "AetherWorld",
+    "text": "C++17 procedural geometry and deterministic physics sandbox. Bounded scene grammar, 54 default meshes, 120 Hz gravity/AABB contacts, conservative water reservoirs, valves and constraint validation. No LLM scene authoring or CFD. Public JavaScript interactive preview and recorded native C++ replay at https://muhammad-ali-hussain-engineering.muhammadalifarhanhus.chatgpt.site/native-lab/?project=aether"
+  },
+  {
+    "id": "windrunner",
+    "name": "WindRunner RL",
+    "text": "C++17 PPO-Clip trainer with GAE and Adam trained for 262,144 steps. Exported linear Gaussian policy reached64 of64 disjoint held-out toy cave goals; mean return112.3255 vsrandom -26.4415. Browser physics mirror checked across747frames. Toy continuous control, no sim-to-real claim. Public JavaScript interactive preview and recorded native C++ replay at https://muhammad-ali-hussain-engineering.muhammadalifarhanhus.chatgpt.site/native-lab/?project=windrunner"
+  },
+  {
+    "id": "chronicle",
+    "name": "Chronicle Engine",
+    "text": "C++17 deterministic RPG state/rules engine with NPC arcs, event replay, atomic durable save/load and corruption rejection. Tested hundreds of committed turns per seed. Template narration, no live LLM GM. Public JavaScript interactive preview and recorded native C++ replay at https://muhammad-ali-hussain-engineering.muhammadalifarhanhus.chatgpt.site/native-lab/?project=chronicle"
+  },
+  {
+    "id": "tempo",
+    "name": "Tempo RTS",
+    "text": "C++17 partial-observability RTS prototype with fog of war, concurrent build queues, resource planning and deterministic work-unit deadlines. Hidden opponent state not exposed to blue policy. Heuristic policy, no learned model. Public JavaScript interactive preview and recorded native C++ replay at https://muhammad-ali-hussain-engineering.muhammadalifarhanhus.chatgpt.site/native-lab/?project=tempo"
+  },
+  {
+    "id": "transformer",
+    "name": "Transformer Forge",
+    "text": "Status: In progress. A tiny forward block with tested rotary positions, SwiGLU and grouped-query attention. Implemented: Adjacent-pair RoPE with correct dimension-dependent frequencies; Causal grouped-query attention with shared KV heads; Pre-norm residual block and SwiGLU feedforward; Numerical identity, grouping and causal-prefix tests. Next: Add checkpoint loading, tokenization and a full model stack; Implement backward passes and a training experiment; Compare against a trusted framework and profile kernels. Limits: Toy dimensions and deterministic synthetic weights; CPU forward only. No trained model, KV cache, GPU kernels or full training runtime."
+  },
+  {
+    "id": "prm",
+    "name": "ProcessLens PRM",
+    "text": "Status: In progress. A deterministic arithmetic step validator that establishes the data and feedback boundary for future process supervision. Implemented: Exact bounded rational-expression parser; Step verdicts with expected values and feedback; Commit-only-on-success dependency tracking; Tests for incorrect steps, invalid syntax and arithmetic bounds. Next: Define labeled reasoning-trajectory schema and dataset loader; Train and calibrate a learned step-scoring model; Evaluate general reasoning and held-out trajectory selection. Limits: Deterministic validator only; not a trained process reward model. Supports structured arithmetic expressions, not natural-language reasoning or general proofs."
+  },
+  {
+    "id": "grpo",
+    "name": "GroupAlign GRPO",
+    "text": "Status: In progress. Group-relative reward normalization and a clipped policy objective, verified on hand-calculated fixtures. Implemented: Group-relative advantages with a zero-variance safeguard; Sign-correct clipped importance-ratio surrogate; Sampled reference-policy KL penalty; Equal completion weighting with token means and numerical tests. Next: Connect rollout generation and policy log probabilities; Add autodiff, optimizer updates and reference-model lifecycle; Run controlled alignment and reward-quality evaluations. Limits: Objective evaluator only. No neural network, policy updates, rollout service, training dataset or completed alignment pipeline."
+  },
+  {
+    "id": "specserve",
+    "name": "SpecServe",
+    "text": "Status: In progress. The exact speculative-sampling rejection and correction rule on toy distributions, with context-dependent distribution checks. Implemented: Autoregressive draft proposals with target acceptance ratios; Positive target-minus-draft correction distribution; Bonus target token after an accepted draft block; Analytic mass identity and seeded context-dependent sampling tests. Next: Integrate real draft and target model adapters; Batch target verification and handle KV-cache rollback; Measure end-to-end latency and distribution fidelity on real models. Limits: Toy probability callbacks and sequential target evaluation; no real model serving, batching, streaming or measured speedup."
+  },
+  {
+    "id": "cache",
+    "name": "VectorGate Cache",
+    "text": "Status: In progress. A bounded in-process cosine cache that requires exact metadata isolation before similarity lookup. Implemented: Normalized cosine lookup and exact request hits; Exact tenant, authorization and model-context namespace isolation; Entry-count capacity, LRU eviction, expiry and key replacement; Tested cache core plus a documented proxy adapter boundary. Next: Build an authenticated provider-compatible network adapter; Add concurrency, byte quotas, invalidation and telemetry; Calibrate semantic hit quality on domain-specific held-out requests. Limits: Single-threaded in-memory cache; not a deployed network proxy. Similarity is not proof of equivalence, and capacity bounds entry count rather than total bytes."
   }
 ]

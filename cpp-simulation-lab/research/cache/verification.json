@@ -1,0 +1,33 @@
+{
+  "project": "VectorGate Cache",
+  "status": "In progress",
+  "verification": "passed",
+  "tests_passed": 24,
+  "checks": [
+    "cosine similarity finds same namespace paraphrase",
+    "low similarity misses",
+    "exact request lookup allowed within exact metadata",
+    "metadata field isolation 0",
+    "metadata field isolation 1",
+    "metadata field isolation 2",
+    "metadata field isolation 3",
+    "metadata field isolation 4",
+    "metadata field isolation 5",
+    "metadata field isolation 6",
+    "metadata field isolation 7",
+    "metadata field isolation 8",
+    "capacity is bounded",
+    "LRU entry evicted after recent hit",
+    "recently used entry survives eviction",
+    "same exact key updates without duplicate entry",
+    "expiry boundary removes stale entry",
+    "zero norm rejected",
+    "dimension mismatch rejected",
+    "nonfinite embedding rejected",
+    "already expired insertion rejected",
+    "incomplete namespace metadata rejected",
+    "public cosine shape mismatch rejected",
+    "cosine normalization is scale invariant"
+  ],
+  "method": "in-process bounded cache; no network proxy"
+}

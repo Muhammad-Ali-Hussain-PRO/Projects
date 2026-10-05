@@ -1,0 +1,96 @@
+{
+  "project": "aether",
+  "title": "Aether World",
+  "implementation": "native C++17 CLI",
+  "verified_at_utc": "2026-10-05T01:19:16.491969+00:00",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0",
+  "tests": {
+    "native": {
+      "command": "make test",
+      "status": "passed",
+      "groups": 5,
+      "assertions": 32468
+    },
+    "cli": {
+      "command": "python3 tests/check_cli.py ./build/aether",
+      "status": "passed",
+      "checks": 23
+    },
+    "sanitizers": {
+      "command": "make sanitize",
+      "status": "passed",
+      "address_sanitizer": true,
+      "undefined_behavior_sanitizer": true,
+      "leak_sanitizer": "not run: process inspection unavailable under execution-environment ptrace; detect_leaks=0"
+    },
+    "schema": {
+      "command": "make schema-check",
+      "status": "passed",
+      "scope": "dependency-free checker covering every assertion keyword in the fixed output schema; not a general JSON Schema engine",
+      "snapshots": 3,
+      "field_assertions": 29485
+    }
+  },
+  "fixed_step_hz": 120,
+  "examples": [
+    {
+      "file": "examples/island-closed.json",
+      "sha256": "6ee28dbc04066dc031f1b71ce333763c95b24db1fc7e6f3f2120126b18c7a059",
+      "bytes": 95535,
+      "seed": 42,
+      "steps": 2400,
+      "frames": 81,
+      "geometry_count": 54,
+      "body_count": 3,
+      "initial_water_total": 14,
+      "final_water_total": 14,
+      "volume_error": 7.1054273576e-15,
+      "final_max_penetration": 0,
+      "constraint_checks": 232,
+      "constraints_valid": true,
+      "puzzle_solved": false
+    },
+    {
+      "file": "examples/island-open.json",
+      "sha256": "7a996079ba44484a9ea73d3a1f52443b07ba6525b05c8773ac1b320f60a2caf9",
+      "bytes": 98434,
+      "seed": 42,
+      "steps": 2400,
+      "frames": 81,
+      "geometry_count": 54,
+      "body_count": 3,
+      "initial_water_total": 14,
+      "final_water_total": 14,
+      "volume_error": 2.13162820728e-14,
+      "final_max_penetration": 0,
+      "constraint_checks": 232,
+      "constraints_valid": true,
+      "puzzle_solved": true
+    },
+    {
+      "file": "examples/wind-platforms.json",
+      "sha256": "634fccdd8cc3e13b728b3568d1d34d03b930e2dc36d9e70dbd11ffe040844814",
+      "bytes": 50807,
+      "seed": 7,
+      "steps": 1200,
+      "frames": 41,
+      "geometry_count": 53,
+      "body_count": 5,
+      "initial_water_total": 0,
+      "final_water_total": 0,
+      "volume_error": 0,
+      "final_max_penetration": 0,
+      "constraint_checks": 228,
+      "constraints_valid": true,
+      "puzzle_solved": false
+    }
+  ],
+  "honest_limits": [
+    "Bounded grammar, no LLM and no code evaluation",
+    "Translational AABBs; no rotation or continuous collision detection",
+    "Conservative reservoir volume model; no spatial fluid or CFD simulation",
+    "Browser mirror is separate from native execution",
+    "No WASM or native graphics build implemented",
+    "No performance benchmark claimed"
+  ]
+}

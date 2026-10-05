@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-05T01:18:45.766895+00:00",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0",
+  "language": "C++17",
+  "commandsExecuted": [
+    "make all",
+    "make test",
+    "make samples"
+  ],
+  "nativeBuildVerified": true,
+  "wasmBuildVerified": false,
+  "wasmNote": "No WebAssembly compiler is available; no WASM build is claimed.",
+  "nativeSuites": [
+    {
+      "project": "veil",
+      "passed": true,
+      "checks": 17035,
+      "seeds": 100,
+      "roundCallsPerSeed": 12,
+      "suites": [
+        "private-role noninterference",
+        "private message isolation",
+        "action validation and rollback",
+        "JSON boundary",
+        "deterministic trajectories",
+        "state invariants"
+      ]
+    },
+    {
+      "project": "Chronicle Engine",
+      "passed": true,
+      "checks": 14663,
+      "suites": [
+        "bounded-world",
+        "transactional-rejection",
+        "inventory-and-trade",
+        "npc-arcs",
+        "600-action-consistency",
+        "deterministic-replay",
+        "durable-save-load",
+        "corruption-and-version-rejection"
+      ],
+      "consistency": {
+        "seeds": 8,
+        "actionsPerSeed": 600,
+        "committedTurns": 4412,
+        "minimumCommittedTurns": 550
+      }
+    },
+    {
+      "project": "tempo",
+      "passed": true,
+      "checks": 226,
+      "suites": [
+        "fog-isolation",
+        "scout-memory",
+        "queued-actions-and-reservations",
+        "economy-and-parallel-construction",
+        "simultaneous-combat",
+        "deadlines-and-determinism"
+      ]
+    }
+  ],
+  "nativeAssertionChecks": 31924,
+  "cliSmokeChecks": [
+    {
+      "name": "veil: seeded CLI repeatability",
+      "passed": true
+    },
+    {
+      "name": "veil: trajectory envelope",
+      "passed": true
+    },
+    {
+      "name": "veil: nonempty frames",
+      "passed": true
+    },
+    {
+      "name": "veil: zero-step initial frame",
+      "passed": true
+    },
+    {
+      "name": "chronicle: seeded CLI repeatability",
+      "passed": true
+    },
+    {
+      "name": "chronicle: trajectory envelope",
+      "passed": true
+    },
+    {
+      "name": "chronicle: nonempty frames",
+      "passed": true
+    },
+    {
+      "name": "chronicle: zero-step initial frame",
+      "passed": true
+    },
+    {
+      "name": "tempo: seeded CLI repeatability",
+      "passed": true
+    },
+    {
+      "name": "tempo: trajectory envelope",
+      "passed": true
+    },
+    {
+      "name": "tempo: nonempty frames",
+      "passed": true
+    },
+    {
+      "name": "tempo: zero-step initial frame",
+      "passed": true
+    },
+    {
+      "name": "veil: CLI rejected action exit status",
+      "passed": true
+    },
+    {
+      "name": "veil: CLI rejection preserves private view",
+      "passed": true
+    },
+    {
+      "name": "veil: streaming external delegate accepted",
+      "passed": true
+    },
+    {
+      "name": "veil: streaming requests carry only chosen private view",
+      "passed": true
+    },
+    {
+      "name": "veil: streaming terminal trajectory",
+      "passed": true
+    }
+  ],
+  "cliSmokeChecksCount": 17,
+  "performanceMeasured": false,
+  "providerIntegration": "none; local heuristics and fixed template narration",
+  "sourceFiles": [
+    "Makefile",
+    "README.md",
+    "chronicle/API.md",
+    "chronicle/Makefile",
+    "chronicle/README.md",
+    "chronicle/TECHNICAL_NOTES.md",
+    "chronicle/core.hpp",
+    "chronicle/main.cpp",
+    "chronicle/test.cpp",
+    "tempo/API.md",
+    "tempo/Makefile",
+    "tempo/README.md",
+    "tempo/TECHNICAL_NOTES.md",
+    "tempo/core.hpp",
+    "tempo/main.cpp",
+    "tempo/test.cpp",
+    "veil/API.md",
+    "veil/Makefile",
+    "veil/README.md",
+    "veil/TECHNICAL_NOTES.md",
+    "veil/core.hpp",
+    "veil/json.hpp",
+    "veil/main.cpp",
+    "veil/test.cpp",
+    "verify.py"
+  ]
+}

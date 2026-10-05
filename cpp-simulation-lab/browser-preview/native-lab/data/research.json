@@ -1,0 +1,117 @@
+[
+  {
+    "id": "transformer",
+    "title": "Transformer Forge",
+    "stack": "C++17 \u00b7 CPU reference",
+    "summary": "A tiny forward block with tested rotary positions, SwiGLU and grouped-query attention.",
+    "status": "In progress",
+    "implemented": [
+      "Adjacent-pair RoPE with correct dimension-dependent frequencies",
+      "Causal grouped-query attention with shared KV heads",
+      "Pre-norm residual block and SwiGLU feedforward",
+      "Numerical identity, grouping and causal-prefix tests"
+    ],
+    "next": [
+      "Add checkpoint loading, tokenization and a full model stack",
+      "Implement backward passes and a training experiment",
+      "Compare against a trusted framework and profile kernels"
+    ],
+    "limits": "Toy dimensions and deterministic synthetic weights; CPU forward only. No trained model, KV cache, GPU kernels or full training runtime.",
+    "source": "https://github.com/Muhammad-Ali-Hussain-PRO/Projects/tree/ai-engineering-studio/cpp-simulation-lab/research/transformer/transformer.hpp",
+    "doc": "/native-lab/docs/transformer.md",
+    "verification": "research/transformer/verification.json",
+    "tests_passed": 16
+  },
+  {
+    "id": "prm",
+    "title": "ProcessLens PRM",
+    "stack": "C++17 \u00b7 exact rational arithmetic",
+    "summary": "A deterministic arithmetic step validator that establishes the data and feedback boundary for future process supervision.",
+    "status": "In progress",
+    "implemented": [
+      "Exact bounded rational-expression parser",
+      "Step verdicts with expected values and feedback",
+      "Commit-only-on-success dependency tracking",
+      "Tests for incorrect steps, invalid syntax and arithmetic bounds"
+    ],
+    "next": [
+      "Define labeled reasoning-trajectory schema and dataset loader",
+      "Train and calibrate a learned step-scoring model",
+      "Evaluate general reasoning and held-out trajectory selection"
+    ],
+    "limits": "Deterministic validator only; not a trained process reward model. Supports structured arithmetic expressions, not natural-language reasoning or general proofs.",
+    "source": "https://github.com/Muhammad-Ali-Hussain-PRO/Projects/tree/ai-engineering-studio/cpp-simulation-lab/research/prm/validator.hpp",
+    "doc": "/native-lab/docs/prm.md",
+    "verification": "research/prm/verification.json",
+    "tests_passed": 14
+  },
+  {
+    "id": "grpo",
+    "title": "GroupAlign GRPO",
+    "stack": "C++17 \u00b7 numerical objectives",
+    "summary": "Group-relative reward normalization and a clipped policy objective, verified on hand-calculated fixtures.",
+    "status": "In progress",
+    "implemented": [
+      "Group-relative advantages with a zero-variance safeguard",
+      "Sign-correct clipped importance-ratio surrogate",
+      "Sampled reference-policy KL penalty",
+      "Equal completion weighting with token means and numerical tests"
+    ],
+    "next": [
+      "Connect rollout generation and policy log probabilities",
+      "Add autodiff, optimizer updates and reference-model lifecycle",
+      "Run controlled alignment and reward-quality evaluations"
+    ],
+    "limits": "Objective evaluator only. No neural network, policy updates, rollout service, training dataset or completed alignment pipeline.",
+    "source": "https://github.com/Muhammad-Ali-Hussain-PRO/Projects/tree/ai-engineering-studio/cpp-simulation-lab/research/grpo/grpo.hpp",
+    "doc": "/native-lab/docs/grpo.md",
+    "verification": "research/grpo/verification.json",
+    "tests_passed": 19
+  },
+  {
+    "id": "specserve",
+    "title": "SpecServe",
+    "stack": "C++17 \u00b7 toy stochastic decoding",
+    "summary": "The exact speculative-sampling rejection and correction rule on toy distributions, with context-dependent distribution checks.",
+    "status": "In progress",
+    "implemented": [
+      "Autoregressive draft proposals with target acceptance ratios",
+      "Positive target-minus-draft correction distribution",
+      "Bonus target token after an accepted draft block",
+      "Analytic mass identity and seeded context-dependent sampling tests"
+    ],
+    "next": [
+      "Integrate real draft and target model adapters",
+      "Batch target verification and handle KV-cache rollback",
+      "Measure end-to-end latency and distribution fidelity on real models"
+    ],
+    "limits": "Toy probability callbacks and sequential target evaluation; no real model serving, batching, streaming or measured speedup.",
+    "source": "https://github.com/Muhammad-Ali-Hussain-PRO/Projects/tree/ai-engineering-studio/cpp-simulation-lab/research/specserve/speculative.hpp",
+    "doc": "/native-lab/docs/specserve.md",
+    "verification": "research/specserve/verification.json",
+    "tests_passed": 18
+  },
+  {
+    "id": "cache",
+    "title": "VectorGate Cache",
+    "stack": "C++17 \u00b7 cosine search \u00b7 LRU",
+    "summary": "A bounded in-process cosine cache that requires exact metadata isolation before similarity lookup.",
+    "status": "In progress",
+    "implemented": [
+      "Normalized cosine lookup and exact request hits",
+      "Exact tenant, authorization and model-context namespace isolation",
+      "Entry-count capacity, LRU eviction, expiry and key replacement",
+      "Tested cache core plus a documented proxy adapter boundary"
+    ],
+    "next": [
+      "Build an authenticated provider-compatible network adapter",
+      "Add concurrency, byte quotas, invalidation and telemetry",
+      "Calibrate semantic hit quality on domain-specific held-out requests"
+    ],
+    "limits": "Single-threaded in-memory cache; not a deployed network proxy. Similarity is not proof of equivalence, and capacity bounds entry count rather than total bytes.",
+    "source": "https://github.com/Muhammad-Ali-Hussain-PRO/Projects/tree/ai-engineering-studio/cpp-simulation-lab/research/cache/cache.hpp",
+    "doc": "/native-lab/docs/cache.md",
+    "verification": "research/cache/verification.json",
+    "tests_passed": 24
+  }
+]

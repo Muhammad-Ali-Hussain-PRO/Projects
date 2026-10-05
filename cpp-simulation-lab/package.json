@@ -1,0 +1,11 @@
+{
+  "name": "hussain-cpp-simulation-lab",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test:browser": "node --test tests/lab.smoke.test.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "26.1.0"
+  }
+}

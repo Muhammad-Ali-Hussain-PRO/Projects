@@ -1,0 +1,23 @@
+{
+  "project": "ProcessLens PRM",
+  "status": "In progress",
+  "verification": "passed",
+  "tests_passed": 14,
+  "checks": [
+    "parentheses and multiplication verified",
+    "committed dependency with exact fraction",
+    "unary sign and fractional arithmetic",
+    "multiplication precedes addition",
+    "incorrect intermediate step identifies expected value",
+    "rejected step leaves environment unchanged",
+    "downstream dependency on rejected step blocked",
+    "division by zero rejected",
+    "committed symbols cannot be overwritten",
+    "unsupported power syntax rejected",
+    "trailing text rejected",
+    "bounded arithmetic rejects excessive reduced result",
+    "rational normalization is exact",
+    "valid independent step can follow rejection"
+  ],
+  "method": "deterministic exact arithmetic validator; no trained model"
+}

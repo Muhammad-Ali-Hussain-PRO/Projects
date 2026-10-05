@@ -1,0 +1,42 @@
+{
+  "suite": "Research foundations",
+  "status": "In progress",
+  "verified_on": "2026-10-05",
+  "compiler": "g++ 13.3.0",
+  "language": "C++17",
+  "flags": "-O2 -std=c++17 -Wall -Wextra -Werror",
+  "projects": [
+    {
+      "id": "transformer",
+      "status": "In progress",
+      "verification": "passed",
+      "tests_passed": 16
+    },
+    {
+      "id": "prm",
+      "status": "In progress",
+      "verification": "passed",
+      "tests_passed": 14
+    },
+    {
+      "id": "grpo",
+      "status": "In progress",
+      "verification": "passed",
+      "tests_passed": 19
+    },
+    {
+      "id": "specserve",
+      "status": "In progress",
+      "verification": "passed",
+      "tests_passed": 18
+    },
+    {
+      "id": "cache",
+      "status": "In progress",
+      "verification": "passed",
+      "tests_passed": 24
+    }
+  ],
+  "tests_passed": 91,
+  "scope": "Numerical and deterministic reference fixtures only; no training, deployment or serving-speed claims."
+}

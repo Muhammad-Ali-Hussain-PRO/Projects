@@ -1,0 +1,28 @@
+{
+  "project": "GroupAlign GRPO",
+  "status": "In progress",
+  "verification": "passed",
+  "tests_passed": 19,
+  "checks": [
+    "population normalized low reward",
+    "mean reward has zero advantage",
+    "population normalized high reward",
+    "group advantages sum to zero",
+    "constant reward group safely returns zeros",
+    "positive reward affine invariance 0",
+    "positive reward affine invariance 1",
+    "positive reward affine invariance 2",
+    "positive advantage upper clip",
+    "positive advantage lower side remains pessimistic",
+    "negative advantage lower clip",
+    "negative advantage upper side remains pessimistic",
+    "identical log probabilities have zero sampled KL",
+    "sampled KL hand calculation",
+    "objective uses completion means with unequal token lengths",
+    "empty reward group rejected",
+    "zero importance ratio rejected",
+    "nonfinite reward rejected",
+    "mismatched group shape rejected"
+  ],
+  "method": "numerical objective evaluation; no policy training"
+}

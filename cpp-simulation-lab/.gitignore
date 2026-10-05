@@ -1,0 +1,5 @@
+**/build/
+**/__pycache__/
+research/*/tests
+research/*/demo
+*.zip

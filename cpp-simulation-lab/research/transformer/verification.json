@@ -1,0 +1,25 @@
+{
+  "project": "Transformer Forge",
+  "status": "In progress",
+  "verification": "passed",
+  "tests_passed": 16,
+  "checks": [
+    "RoPE position zero is identity",
+    "RoPE first pair frequency",
+    "RoPE first pair orientation",
+    "RoPE second pair frequency",
+    "RoPE preserves squared norm",
+    "RoPE dot product depends on relative position",
+    "odd RoPE dimension rejected",
+    "SwiGLU positive hand calculation",
+    "SwiGLU negative hand calculation",
+    "GQA group mapping at first token",
+    "GQA uniform scores average causal values",
+    "future values excluded by causal mask",
+    "nondivisible head grouping rejected",
+    "full forward shape and finite values",
+    "full block causal prefix invariance",
+    "attention and feedforward change residual stream"
+  ],
+  "fixture": {"model_dimension":8,"query_heads":4,"kv_heads":2,"head_dimension":2}
+}

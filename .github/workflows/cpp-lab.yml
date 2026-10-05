@@ -1,0 +1,20 @@
+name: C++ simulation lab
+on:
+  push:
+    branches: [ai-engineering-studio]
+    paths: ['cpp-simulation-lab/**', '.github/workflows/cpp-lab.yml']
+  pull_request:
+    paths: ['cpp-simulation-lab/**', '.github/workflows/cpp-lab.yml']
+permissions:
+  contents: read
+jobs:
+  native:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build and verify C++17 cores
+        run: make -C cpp-simulation-lab test
+      - name: Verify native game CLI boundaries
+        run: python3 cpp-simulation-lab/native-games/verify.py
+      - name: Verify RL browser physics parity
+        run: make -C cpp-simulation-lab/native-rl parity

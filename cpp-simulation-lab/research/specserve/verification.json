@@ -1,0 +1,27 @@
+{
+  "project": "SpecServe",
+  "status": "In progress",
+  "verification": "passed",
+  "tests_passed": 18,
+  "checks": [
+    "rejection correction uses normalized positive p minus q",
+    "analytic output mass equals target 0",
+    "analytic output mass equals target 1",
+    "analytic output mass equals target 2",
+    "identical models accept all proposals and add bonus token",
+    "disjoint support rejects draft and corrects to target",
+    "unnormalized distribution rejected",
+    "vocabulary mismatch rejected",
+    "zero draft length rejected",
+    "context-dependent joint probability 00",
+    "context-dependent joint probability 01",
+    "context-dependent joint probability 02",
+    "context-dependent joint probability 10",
+    "context-dependent joint probability 11",
+    "context-dependent joint probability 12",
+    "context-dependent joint probability 20",
+    "context-dependent joint probability 21",
+    "context-dependent joint probability 22"
+  ],
+  "monte_carlo": {"seed":20261005,"sequences":200000,"absolute_tolerance":0.004,"maximum_joint_error":0.001245}
+}

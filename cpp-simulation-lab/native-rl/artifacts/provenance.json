@@ -1,0 +1,108 @@
+{
+  "project": "windrunner",
+  "implementation": "C++17, standard library only",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0",
+  "training": {
+    "command": "./build/windrunner --train --seed 42 --steps 262144 --episodes 64 --out artifacts --json",
+    "seed": 42,
+    "steps": 262144,
+    "updates": 64,
+    "completedEpisodes": 2139,
+    "checkpoint": "final update, no held-out checkpoint selection",
+    "initialMeanWeights": "all zero",
+    "initialStandardDeviation": 0.55,
+    "batchSize": 4096,
+    "minibatchSize": 256,
+    "maxEpochs": 8,
+    "gamma": 0.995,
+    "gaeLambda": 0.95,
+    "ppoClip": 0.2,
+    "actorLearningRate": 0.0025,
+    "criticLearningRate": 0.012,
+    "entropyCoefficient": 0.002,
+    "klEarlyStop": 0.025
+  },
+  "evaluation": {
+    "episodes": 64,
+    "seedSchedule": "uint32 avalanche(index+20261005), high bit set; full exact seeds in evaluation.json",
+    "trainingSeeds": [
+      1,
+      1073741823
+    ],
+    "heldOutSeeds": [
+      2147483648,
+      4294967295
+    ],
+    "policy": "deterministic Gaussian mean, clipped actions",
+    "randomBaseline": "independent uniform[-1,1] actions, seeded per episode",
+    "zeroBaseline": [
+      0,
+      0
+    ],
+    "summary": {
+      "trained": {
+        "episodes": 64,
+        "meanReturn": 112.325460036,
+        "stdReturn": 0.212508204075,
+        "meanDistance": 64.1769221713,
+        "meanSteps": 146.09375,
+        "successRate": 1,
+        "collisionRate": 0,
+        "timeoutRate": 0,
+        "successes": 64,
+        "collisions": 0,
+        "timeouts": 0
+      },
+      "random": {
+        "episodes": 64,
+        "meanReturn": -26.4415274799,
+        "stdReturn": 2.5250915933,
+        "meanDistance": 1.53367011919,
+        "meanSteps": 31.578125,
+        "successRate": 0,
+        "collisionRate": 1,
+        "timeoutRate": 0,
+        "successes": 0,
+        "collisions": 64,
+        "timeouts": 0
+      },
+      "zero": {
+        "episodes": 64,
+        "meanReturn": -26.4506754648,
+        "stdReturn": 1.53480029155,
+        "meanDistance": 1.24814058435,
+        "meanSteps": 32.15625,
+        "successRate": 0,
+        "collisionRate": 1,
+        "timeoutRate": 0,
+        "successes": 0,
+        "collisions": 64,
+        "timeouts": 0
+      }
+    }
+  },
+  "verification": {
+    "nativeTests": "passed",
+    "finiteDifferenceEpsilon": 1e-06,
+    "trainingRepeat": "model, training CSV, evaluation JSON and trajectory byte-identical on same runtime",
+    "browserNativeParity": {
+      "seeds": [
+        0,
+        42,
+        2147483659,
+        2506658466,
+        3970628429
+      ],
+      "frames": 747,
+      "maxAbsoluteError": 3.3440983315813355e-10
+    }
+  },
+  "sha256": {
+    "model.json": "70ec1c738411a1d59cf5ba9e472427ed88fed0d44d620895fc866017733709eb",
+    "training_curve.csv": "e167193b5e7734866f5651ffb3170b4b313c672e9696d9ed5c21af9185932e4f",
+    "training_curve.json": "822f23545ce14471c049c459ea202f30a64b255334fc2c2e390d49309ab3752b",
+    "evaluation.json": "566d2f9ab1f2d5ab62c77e02543c5401fd1493f4d41b331be9ef649f2915d1dc",
+    "evaluation.csv": "e06c6e82607d48eb29398a3b5dc2b09f2a4c1d7d6a06ce8cbd6fbea715ee80e5",
+    "trajectory.json": "2798670a93d5961daebc5b2f37b26b143d31dc6f1b25d80e146c6854f05dd2df"
+  }
+}
